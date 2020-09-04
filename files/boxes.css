@@ -1,0 +1,136 @@
+/*Hva-mener-vi-om-boksen FRONTPAGE*/
+.choice-box {
+    background-color: white;
+    grid-column: 4 / span 6;
+    grid-row: 3 / span 7;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 45% 55%; 
+    grid-auto-flow: column;
+    
+}
+
+.search-heading{
+    font-family: "The Hand";
+    font-weight: 900;
+    font-size: 3.5rem;
+    grid-row: span 1;
+    grid-column: 2 / span 7;
+    align-self: end;
+    justify-self: start;
+    text-align: center;
+}
+
+form {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 10;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    
+}
+
+input[type=submit]  {
+    width: 3em;
+    height: 2em; 
+    background-color: #D94B8E;
+    border: none;
+    color: white;
+    font-family: "League Gothic";
+    font-size: 2rem;
+    letter-spacing: 3px;
+    justify-self: end;
+    grid-column: span 4 / 13;
+    text-transform: uppercase;
+    
+   
+}
+
+input[list] {
+   
+    font-size: 2rem;
+    grid-column: 1 / span 8;
+    background-color: #f9f9f8;
+    color: #4f5151;
+    padding-left: .5em;
+    font-family: "League Gothic";
+    border: 0.1em solid #4f5151;
+    letter-spacing: 3px;
+
+    
+}
+
+/*HVA-MENER-Vi-OM-boksen UNDERPAGE*/
+.choice-box-a1 {
+    
+    background-color: white;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 4;    
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 45% 55%; 
+    grid-auto-flow: column;
+    margin-top: 2em;
+    min-height: 10em;
+    
+    
+    
+    }
+    
+    .search-heading{
+        font-family: "The Hand";
+        font-weight: 900;
+        font-size: 2.5rem;
+        grid-row: span 1;
+        grid-column: 2 / span 7;
+        align-self: end;
+        justify-self: start;
+        text-align: center;
+    }
+    
+    form {
+        grid-row: 2 / span 1;
+        grid-column: 2 / span 10;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        
+        
+    }
+    
+    input[type=submit]  {
+        width: 3em;
+        height: 1.2em; 
+        background-color: #D94B8E;
+        border: none;
+        color: white;
+        font-family: "League Gothic";
+        font-size: 2rem;
+        letter-spacing: 3px;
+        
+        
+        text-transform: uppercase;
+        
+       
+    }
+    
+    input[list] {
+        height: 1em;
+        max-width: 8.5em;
+        min-width: 4em;
+        font-size: 2rem;
+        
+        background-color: #f9f9f8;
+        color: #4f5151;
+        padding-left: .5em;
+        font-family: "League Gothic";
+        border: 0.1em solid #4f5151;
+        letter-spacing: 3px;
+        margin-right: 1em;
+        
+    }
+
+
+

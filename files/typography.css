@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url("fonts/leauge-gothic/LeagueGothic-Regular.otf") format(truetype);
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Demi';
+    src: url("fonts/avenir-next-LT-Pro/AvenirNextLTPro-Demi.otf") format(truetype);
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Bold';
+    src: url("fonts/avenir-next-LT-Pro/AvenirNextLTPro-Bold.otf") format(truetype);
+}
+
+@font-face {
+    font-family: 'The Hand';
+    src: url("fonts/the-hand/TheHandXtraBlk.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro ';
+    src: url("fonts/a-Caslon-Pro/ACaslonPro-Regular.otf") format(truetype);
+}
+
+#slogan {
+    font-family: "League Gothic", sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}

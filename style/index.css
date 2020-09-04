@@ -1,0 +1,19 @@
+/*bakgrunnsbilde*/
+#main-content {
+    width: 100%;
+    max-width: 100%;
+    height: 65vh;
+    /*
+    background-image: url("./images/mdg-aksjon.jpg"), url("./images/mdg-youngstorget.jpeg"), url("./images/solcellepanel.jpg"), url("./images/sykkelbarn.jpeg") url("./images/vindmøller.jpeg"), url("./images/urban-forest.jpg");*/
+    background-image: url("./images/sykkelbarn.jpeg");
+    background-size: cover;
+    background-position: top;
+    animation-name: altering-image;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+   
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-auto-flow: column;
+}
