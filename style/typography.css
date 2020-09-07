@@ -68,6 +68,14 @@
     text-transform: uppercase;
 }
 
+#underpage-input {
+    font-family: "League Gothic";
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
 #search {
     font-size: 2.5rem;
     font-family: "League Gothic";
@@ -83,6 +91,7 @@
     text-transform: uppercase;
    
 }
+
 
 
 
@@ -141,13 +150,34 @@ h2 {
 
 }
 
+h3 {
+    font-family: "Avenir Next LT Pro";
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+   
+}
+
 p {
     font-family: "Adobe Caslon Pro";
     font-size: 18px;
+}
+
+.h1-backgroundcolor {
+    font-family: "League Gothic";
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    
 }
 
 .link-button {
     font-family: "Avenir Next LT Pro";
     font-weight: 600;
     font-size: 1.6em;
+}
+
+a {
+    text-decoration: none;
 }

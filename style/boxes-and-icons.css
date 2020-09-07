@@ -45,9 +45,8 @@
     background-color: #D94B8E;
     border: none;
     color: white;
-    
-   
 }
+
 
 
 /*Hva-mener-vi-om-boksen UNDERPAGE*/
@@ -61,7 +60,7 @@
     grid-template-rows: 45% 55%; 
     grid-auto-flow: column;
     margin-top: 5em;
-    min-height: 9em;
+    min-height: 15em;
     padding: 2em;
 }
     
@@ -78,8 +77,6 @@
     align-self: center;
     display: grid;
     grid-auto-flow: column;
-
-
     grid-template-columns: 70% 25%;
     grid-template-rows: 1fr;
     justify-items: start;
@@ -96,7 +93,7 @@
     grid-column: 1 / span 1;
     width: 100%;
     padding: .2em;
-    height: 2em;
+    
     
 }
 
@@ -109,21 +106,21 @@
     border: none;
     height: 2em;
     padding: .2em;
-
 }
+
+
+/*IKONER*/
 
 .arrow-down, .arrow-up {
     width: 8em;
     z-index: 5;
     text-align: center;
-    
-
 }
 
 #down-arrow, #up-arrow {
     width: 5em;
-    
 }
+
 
 /*BUTTONS*/
 .link-button {

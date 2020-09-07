@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    
+}
+
+
+/*FREMHEVEDE POLITIKERE*/
+
+#s1-pol {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh 50vh 50vh;
+    grid-auto-flow: column;
+    position: relative;
+    top: 17vh;
+    margin-bottom: 5em;
+  
+    
+    
+
+}
+
+.big-pol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+#a1, #a2, #a3 {
+    height: 50vh;
+}
+
+#a1-img, #a2-img, #a3-img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+#a1-img, #text2, #a3-img {
+    grid-column: 1 /span 1;
+}
+#text1, #a2-img, #text-3 {
+    grid-column: 2 / span 1;
+}
+
+.text-wrap-pol {
+    width: 40vw;
+    margin: 0 3em 1em 3em;
+}
+
+
+/*FYLKESPOLITIKERE*/
+
+#s2-pol {
+    
+    position: relative;
+    top: 17vh;
+    width: 80%;
+    margin: 15em auto;
+    
+}
+
+.h1-backgroundcolor {
+    color: white;
+    background-color: #D94B8E;
+    background-size: contain;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+#flex-wrapper img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#flex-wrapper .text-wrap-pol {
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+
+#flex-wrapper {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around;
+}
+
+#flex-wrapper article {
+  
+    width: 350px;
+    margin: 0 1em 2em 1em;
+}
+
