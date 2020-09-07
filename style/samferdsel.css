@@ -1,62 +1,76 @@
 #s1 {
-    height: 81.5%;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 20% 60% 20%;
     grid-auto-flow: column;
+   
 }
 
+#s2 {
+    height: 85vh;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+/*bakgrunnsbildet*/
 .large-img {
     grid-row: 1 / span 3;
     grid-column: 1 / span 6;
-    background-image: url("./images/hurtigtog.jpeg");
+    background-image: url("../images/hurtigtog.jpeg");
     background-size: cover;
     background-position: center;   
 }
 
+
+/*Kulepunktteksten*/
 .bullet-points {
     grid-column: 7 / span 6;
     grid-row: 1 /span 3;
-    grid-template-rows: 20% 60% 20%;
     display: grid;
+    grid-template-rows: 20% 60% 20%;
     align-items: center;
-    min-width: 50vw;
-    max-width: 100%;
 }
 
 .color-heading {
-    font-family: "League Gothic";
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
     color:  #66C9D8;
     align-self: end;
-    text-align: center;
 }
 
 .check-ul {
     margin: 1em auto;
-    padding: 1em; 
+    padding: 2em; 
 }
 
 .check-li {
-    font-size: 1.7rem;
-    font-family: "Avenir Next LT Pro";
-    font-weight: 500;
+
     list-style: none;
-    background-image: url("./images/icon-check-03.png");
+    background-image: url("../images/check_check.png");
     background-position: left;
     background-repeat: no-repeat;
-    padding-left: 4em;
-    line-height: 3.5em;
+    
+    
+    line-height: 2em;
+    padding: 1em 1em 1em 2em;
 }
 
-#down-arrow {
-   grid-row: 3;
-   align-self: end;
-   grid-column: 1 /span 12;
-   justify-self: center;
-   z-index: 5;
-   width: 3em;
-  
-}
+
+/*Ikonene*/
+.arrow-down {
+    grid-row: 3;
+    align-self: end;
+    grid-column: 7 /span 6;
+    justify-self: center;
+     }
+
+.arrow-up {
+    
+    
+       
+         }
+
+
+/*Artikkelteksten*/
+

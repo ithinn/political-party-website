@@ -16,20 +16,20 @@ body {
 }
 
 
+
 /*STI*/
 
 #sti {
     display: flex;
     flex-direction: row;
     padding: .8em;
-    height: 3%;
+    height: 3vh;
+    align-items: center;
+    
+    
 }
 
-#sti a {
-    font-family: "Avenir Next LT Pro";
-    font-size: 1rem;
-    text-decoration: none;
-}
+
 
 #sti h4 {
     padding: 0 1em;

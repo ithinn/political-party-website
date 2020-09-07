@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/typography.css">
     <link rel="stylesheet" href="style/header-and-nav.css">
-    <link rel="stylesheet" href="./style/boxes.css">
+    <link rel="stylesheet" href="./style/boxes-and-icons.css">
     
 </head>
 <body>
@@ -27,22 +27,20 @@
     <div class="main-grid">
     
     <section id="main-nav">
-
-            <a id="nav-1" href="article1-samferdsel.html">Hva mener vi?</a>
+            <a id="nav-1" href="./samferdsel.html">Hva mener vi?</a>
             <a id="nav-2">Politikerne våre</a>
             <a id="nav-3">Si hva du mener</a>
             <a id="nav-4">Bli med!</a>
-        
     </section>
 
     
    
     <section id="main-content">
-        
-        <article class="choice-box">
-            <h1 class="search-heading">Hva mener vi om?</h1>
-            <form method="POST" action="article1-samferdsel.html">
-                <input list="topics">
+
+        <article class="choice-box-front">
+            <h1 class="search-heading-front">Hva mener vi om?</h1>
+            <form id="front-form" method="POST" action="article1-samferdsel.html">
+                <input id="front-input" list="topics">
                 <datalist id="topics">
                     <option value="Samferdsel"></option>
                     <option value="Helse"></option>
