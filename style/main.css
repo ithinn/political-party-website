@@ -15,6 +15,13 @@ body {
     color: #4f5151;
 }
 
+footer {
+    height: 15vh;
+    background-color: #4f5151;
+    margin-top: 20em;
+    color: white;
+    width: 100%;
+}
 
 
 /*STI*/
@@ -22,9 +29,14 @@ body {
 #sti {
     display: flex;
     flex-direction: row;
-    padding: .8em;
-    height: 3vh;
+    padding: .08em;
+    height: 5vh;
+    width: 100%;
     align-items: center;
+    position: fixed;
+    top: 12vh;
+    background-color: white;
+    z-index: 100;
     
     
 }

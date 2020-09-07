@@ -113,13 +113,28 @@
 }
 
 .arrow-down, .arrow-up {
-    width: 5em;
+    width: 8em;
     z-index: 5;
+    text-align: center;
+    
 
 }
 
-#down-arrow {
+#down-arrow, #up-arrow {
     width: 5em;
+    
 }
 
+/*BUTTONS*/
+.link-button {
+    background-color: #D94B8E;
+    border: none;
+    color: white;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.link-button:hover {
+    background-color: #a2b424;
+}
 
