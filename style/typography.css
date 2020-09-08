@@ -181,3 +181,20 @@ p {
 a {
     text-decoration: none;
 }
+
+/*FORM*/
+form, select, textarea, input[type=text], input[type=email] {
+    font-family: "Avenir Next LT Pro";
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+input[type=submit] { 
+    
+        font-family: "League Gothic";
+        font-size: 2rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+}
+

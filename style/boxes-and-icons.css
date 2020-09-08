@@ -87,9 +87,7 @@
 
 
 #underpage-input {
-    background-color:white;
-    border: 3px solid #4f5151;
-    color: #4f5151;
+    
     grid-column: 1 / span 1;
     width: 100%;
     padding: .2em;
@@ -135,3 +133,28 @@
     background-color: #a2b424;
 }
 
+
+/*FORMS*/
+
+input, select, textarea {
+    background-color:white;
+    border: 3px solid #4f5151;
+    color: #4f5151;
+    
+    width: 100%;
+    padding: .2em;
+}
+
+input[type=submit] { 
+    background-color: #D94B8E;
+    color: white;
+    border: none;
+    height: 2em;
+    padding: .2em;
+}
+
+label {
+    background-color: #a2b424;
+    color: white;
+    padding: .3em;
+}
