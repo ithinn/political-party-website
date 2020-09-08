@@ -23,7 +23,7 @@
     src: url("fonts/a-Caslon-Pro/ACaslonPro-Regular.otf") format(truetype);
 }
 
-#slogan {
+#slogan, .banner-heading {
     font-family: "League Gothic", sans-serif;
     font-size: 9rem;
     color: white;

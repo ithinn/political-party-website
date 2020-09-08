@@ -1,0 +1,45 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    top: 17vh;
+}
+
+#banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url("../images/mdg-valgvake.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 1 / span 1;
+    
+    
+}
+
+.banner-heading {
+    background-color: #D94B8E;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 70%;
+}
+
+#join-us {
+    grid-row: 2 /span 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+#member-button {
+    grid-row: 1 / span 1;
+}
+
+#donor-button
+
+#a1
+
+#a2
