@@ -14,7 +14,6 @@
     grid-column: 2 / span 7;
     align-self: end;
     justify-self: start;
-    
 }
 
 #front-form {
@@ -34,8 +33,7 @@
     color: #4f5151;
     grid-column: 1 / span 1;
     width: 100%;
-    padding: .2em;
-    
+    padding: .2em;   
 }
 
 #search { 
@@ -51,7 +49,6 @@
 
 /*Hva-mener-vi-om-boksen UNDERPAGE*/
 .choice-box-a1 {
-    
     background-color: white;
     grid-row: 1 / span 1;
     grid-column: 2 / span 4;    
@@ -85,14 +82,10 @@
     row-gap: 2em;
 }
 
-
 #underpage-input {
-    
     grid-column: 1 / span 1;
     width: 100%;
     padding: .2em;
-    
-    
 }
 
 #underpage-search-button { 
@@ -125,12 +118,19 @@
     background-color: #D94B8E;
     border: none;
     color: white;
-    padding: 1em;
+    padding: .5em;
     margin-top: 1em;
 }
 
 .link-button:hover {
     background-color: #a2b424;
+}
+
+#member-button, #donor-button {
+    font-size: 2.1rem;
+    font-weight: 400;
+    width: 60%;
+    margin: 0 auto;
 }
 
 
@@ -140,7 +140,6 @@ input, select, textarea {
     background-color:white;
     border: 3px solid #4f5151;
     color: #4f5151;
-    
     width: 100%;
     padding: .2em;
 }

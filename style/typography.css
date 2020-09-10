@@ -23,123 +23,9 @@
     src: url("fonts/a-Caslon-Pro/ACaslonPro-Regular.otf") format(truetype);
 }
 
-#slogan, .banner-heading {
-    font-family: "League Gothic", sans-serif;
-    font-size: 9rem;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    
-}
 
-#nav-1, #nav-2, #nav-3, #nav-4 {
-    font-family: 'Avenir Next LT Pro';
-    font-size: 2rem;
-    font-weight: 700px;
-    color: #4f5151;
-}
+/*HEADINGS AND TEXT*/
 
-#nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
-    font-family: 'Avenir Next LT Pro';
-    font-size: 2rem;
-    font-weight: 700px;
-    color: white;
-}
-
-.search-heading-front{
-    font-family: "The Hand";
-    font-weight: 900;
-    font-size: 5rem;
-    text-align: center;
-}
-
-#search-heading-underpage {
-    font-family: "The Hand";
-    font-weight: 900;
-    font-size: 3.5rem;
-    text-align: center;
-}
-
-#front-input  {
-    font-family: "League Gothic";
-    font-size: 4rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-#underpage-input {
-    font-family: "League Gothic";
-    font-size: 2rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-
-#search {
-    font-size: 2.5rem;
-    font-family: "League Gothic";
-    
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-#underpage-search-button { 
-    font-family: "League Gothic";
-    font-size: 2rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-   
-}
-
-
-
-
-
-#sti a {
-    font-family: "Avenir Next LT Pro";
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-.color-heading {
-    font-family: "League Gothic";
-    font-size: 5rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-}
-
-
-.check-li {
-    font-size: 2rem;
-    font-family: "Avenir Next LT Pro";
-    font-weight: 500;
-    
-}
-
-
-
-.arrow-down figcaption {
-    font-family: "Avenir Next LT Pro";
-    font-size: 1.5rem;
-    font-weight: 900;
-    text-align: center;
-}
-
-.arrow-up figcaption {
-    font-family: "Avenir Next LT Pro";
-    font-size: 1.5rem;
-    font-weight: 900;
-    text-align: center;
-}
-
-.ingress {
-    font-family: "Adobe Caslon Pro";
-    font-size: 2rem;
-    line-height: 1.5;
-    text-align: left;
-}
 
 h2 {
     font-family: "Avenir Next LT Pro";
@@ -160,7 +46,12 @@ h3 {
 
 p {
     font-family: "Adobe Caslon Pro";
-    font-size: 18px;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
 }
 
 .h1-backgroundcolor {
@@ -172,15 +63,136 @@ p {
     
 }
 
-.link-button {
-    font-family: "Avenir Next LT Pro";
-    font-weight: 600;
-    font-size: 1.6em;
+.ingress {
+    font-family: "Adobe Caslon Pro";
+    font-size: 2rem;
+    line-height: 1.7;
+    text-align: left;
 }
 
-a {
+/*samferdsel*/
+.color-heading {
+    font-family: "League Gothic";
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/*index, bli-med*/
+#slogan, .banner-heading {
+    font-family: "League Gothic", sans-serif;
+    font-size: 9rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/*index*/
+.search-heading-front{
+    font-family: "The Hand";
+    font-weight: 900;
+    font-size: 5rem;
+    text-align: center;
+}
+
+/*samferdsel*/
+#search-heading-underpage {
+    font-family: "The Hand";
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+
+/*NAV*/
+
+/*index*/
+#nav-1, #nav-2, #nav-3, #nav-4 {
+    font-family: 'Avenir Next LT Pro';
+    font-size: 2rem;
+    font-weight: 700px;
+    color: #4f5151;
+}
+
+/*sub-pages*/
+#nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
+    font-family: 'Avenir Next LT Pro';
+    font-size: 2rem;
+    font-weight: 700px;
+    color: white;
+}
+
+
+
+/*BUTTONS*/
+
+/*samferdsel*/
+#underpage-search-button, .standard-button { 
+    font-family: "League Gothic";
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*index*/
+#search {
+    font-size: 2.5rem;
+    font-family: "League Gothic";
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*bli med, samferdsel*/
+.link-button {
+    font-family: "League Gothic";
+    font-weight: 600;
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+
+
+/*STI*/
+
+#sti a {
+    font-family: "Avenir Next LT Pro";
+    font-size: 1.5rem;
     text-decoration: none;
 }
+
+
+
+/*LISTS*/
+
+/*samferdsel*/
+.check-li {
+    font-size: 2rem;
+    font-family: "Avenir Next LT Pro";
+    font-weight: 500;
+}
+
+
+
+
+
+/*ICONS*/
+.arrow-down figcaption {
+    font-family: "Avenir Next LT Pro";
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.arrow-up figcaption {
+    font-family: "Avenir Next LT Pro";
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+
 
 /*FORM*/
 form, select, textarea, input[type=text], input[type=email] {
@@ -191,10 +203,22 @@ form, select, textarea, input[type=text], input[type=email] {
 
 
 input[type=submit] { 
-    
-        font-family: "League Gothic";
-        font-size: 2rem;
-        letter-spacing: 3px;
-        text-transform: uppercase;
+    font-family: "League Gothic";
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
+#front-input  {
+    font-family: "League Gothic";
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#underpage-input {
+    font-family: "League Gothic";
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

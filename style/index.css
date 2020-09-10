@@ -1,9 +1,9 @@
 /*bakgrunnsbilde*/
 #main-content {
     height: 67vh;
-    background-image: url("../images/sykkelbarn.jpeg");
+    background-image: url("../images/mdg-youngstorget.jpeg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);

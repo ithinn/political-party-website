@@ -3,22 +3,50 @@
     box-sizing: border-box;
 }
 
+
 main {
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     position: relative;
-    top: 19vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 5fr;
-    grid-auto-flow: column;
+    top: 17vh;
+    display: flex;
+    justify-content: center;
     
 }
 
-#headings {
+footer {
+    justify-self: flex-end;
+}
+
+#background {
+   background-image: url("../images/stortinget1.png");
+   background-size: cover;
+   background-position: top;
+   width: 100%;
+   height: 70vh;
+   position: relative;
    
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-auto-flow: column;
+    width: 70%;
+    height: fit-content;
+    background-color:white;
+    margin: 0 auto;
+    position: absolute;
+    top: 25vh;
+   
+}
+
+#headings {
+   margin: 5em 2em 1em 2em;
    grid-row: 1 / span 1;
+    
 }
 
 #headings h2 {
@@ -28,8 +56,11 @@ main {
 
 #form-section {
     width: 60%;
+    height: fit-content;
     min-width: 50em;
-    margin: 5em auto;
+    margin: 3em auto;
+    background-color: white;
+  
  
     
 }
@@ -42,6 +73,7 @@ form {
     gap: 1em;
     justify-items: start;
     align-items: center;
+    
 }
 
 #label-name {

@@ -30,8 +30,8 @@ section {
 
 #s2 {
     height: auto;
-    width: 60%;
-    margin: 17vh auto;
+    width: 100%;
+    
    
     position: relative;
     top: 17vh;
@@ -100,7 +100,7 @@ section {
 }
 
 .arrow-up {
-margin: 5vh auto;
+margin: 2vh auto;
 
     
     
@@ -108,7 +108,7 @@ margin: 5vh auto;
 
 /*Les-mer-button*/
 .link-button {
-    
+    margin: 0 auto;
 }
 
 
@@ -118,30 +118,38 @@ margin: 5vh auto;
 .color-heading.article-heading {
     text-align: left;
     display: inline;
+    
 }
 
-
-#article-text {
-  width: 80%;
-}
-
-/*
-.color-heading.article-heading {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 12;
-    align-self: end;
-    
-    
+.article-heading {
+    margin: 1em auto 1em auto;
 }
 
 #article-text {
-    grid-row: 3 / span 1;
-    grid-column: 2 / span 10;
-    
+  width: 60%;
+  margin: 0 auto;
+  
 }
 
-button {
-    grid-row: 1 / span 1;
-    grid-column: 11 / span 2;;
-    
-}*/
+
+
+#background {
+    background-image: url("../images/kollektivtransport.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 70vh;
+   position: relative;
+}
+
+#text-wrapper {
+    width: 70%;
+    background-color: white;
+    position: relative;
+    top: 22vh;
+    margin: 0 auto;
+    padding: 2em 3em; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

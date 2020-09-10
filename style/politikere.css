@@ -7,6 +7,63 @@ main {
     
 }
 
+/*VIDEOSEKSJON*/
+
+#s-video {
+    position: relative;
+    top: 17vh;
+    height: fit-content;
+    background-color:  #4F5151;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+    margin: 0 auto 2em auto;
+    padding: 1em;
+}
+
+#animated-h1 {
+    
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    animation-duration: 2s;
+     white-space: nowrap;
+    border-right: 4px solid #D94B8E;
+    font-size: 6rem;
+    text-align: center;
+    word-wrap: break-word;
+    
+    
+}
+
+#text-wrapper1 {
+    width: 40%;
+    
+    border: 1px solid white;
+    
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #D94B8E; 
+    }
+}
+
 
 /*FREMHEVEDE POLITIKERE*/
 
@@ -18,9 +75,7 @@ main {
     position: relative;
     top: 17vh;
     margin-bottom: 5em;
-  
-    
-    
+
 
 }
 
@@ -61,7 +116,7 @@ main {
     
     position: relative;
     top: 17vh;
-    width: 80%;
+    width: 100%;
     margin: 15em auto;
     
 }
@@ -69,11 +124,12 @@ main {
 .h1-backgroundcolor {
     color: white;
     background-color: #D94B8E;
-    background-size: contain;
+    
     height: 1.5em;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   
     
 }
@@ -95,7 +151,7 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: space-around;

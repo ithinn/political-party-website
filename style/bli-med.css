@@ -19,27 +19,74 @@ main {
 }
 
 .banner-heading {
-    background-color: #D94B8E;
+    background-color: #66C9D8;
     width: 60%;
     margin: 0 auto;
     position: relative;
-    top: 70%;
+    top: 75%;
+    padding: .2em;
+  
 }
 
 #join-us {
     grid-row: 2 /span 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 15% 85%;
+    width: 80%;
+    margin: 7rem auto;
+    align-items: center;
+    gap: 3em;
+
 
 }
 
 #member-button {
     grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
 }
 
-#donor-button
+#donor-button {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    background-color:  #F4CF27;
+    color: #4f5151;
+}
 
-#a1
+#donor-button:hover {
+    background-color: #a2b424;
+}
 
-#a2
+#a1 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    align-self: start;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+#a2 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    align-self: start;
+    
+}
+
+#a1 .ingress, #a2 .ingress {
+    
+    width: 80%;
+    margin: 0 auto;
+}
+
+.price {
+    text-align: left;
+}
+
+#a1 h2 {
+  width: fit-content;
+  margin: 2em auto 1em auto;
+
+}

@@ -178,6 +178,152 @@ a:hover {
     height: 2.1em;
 }
 
+/*RESPONSIVT*/
+@media (max-width: 1148px) {
+    main {
+        background-color: gray;
+    }
+
+    html {
+        font-size: 58%;
+    }
+
+    .main.main-nav-underpage {
+        padding-left: .5em;
+    }
+
+}
+
+@media (max-width: 882px) {
+    main {
+        background-color: blue;
+    }
+
+   
+
+    #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
+        padding: 1em 1em 1em 0;
+        
+    }
+
+}
+
+@media (max-width: 699px) {
+    main {
+        background-color: red;
+    }
+    .main-nav-underpage {
+        visibility: hidden;
+    }
+   
+    #header-underpage-content {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-auto-flow: column;
+        
+        
+        
+    }
+    
+    #logo-underpage {
+        width: 9.5em;
+        height: 7em;
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    #menu-icon {
+        grid-column: 3 / span 1;
+        grid-row: 1 / span 1;
+        align-self: center;
+        justify-self: end;
+     }
+     
+     #search-icon {
+         visibility: hidden;
+     }
+
+
+}
 
 
 
+
+
+
+
+
+
+/*HEADER UNDERPAGE
+
+#underpage {
+    width: 100%;
+    height: 12vh;
+    background-color: #6a9325;
+    position: fixed;
+    z-index: 99;
+}
+
+#header-underpage-content {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+#logo-underpage {
+    width: 8em;
+    height: 5.5em;
+    grid-column: 1 / span 2;
+}
+
+.main-nav-underpage {
+    grid-column: 3 / span 8;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1em;
+}
+
+#nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
+    padding: 1em 3em 1em 0;
+    
+}
+
+#nav-1-underpage:hover {
+    color:  #66C9D8;
+}
+#nav-2-underpage:hover {
+    color:  #66C9D8;
+}
+#nav-3-underpage:hover {
+    color:  #66C9D8;
+}
+#nav-4-underpage:hover {
+    color:  #66C9D8;
+}
+
+#menu-icon {
+   grid-column: 11 / span 1;
+}
+
+#search-icon {
+    grid-column: 12/ span 1;
+}
+
+#menu-icon:hover {
+    width: 2.1em;
+    height: 2.1em;
+}
+
+#search-icon:hover {
+    width: 2.1em;
+    height: 2.1em;
+}
+*/
