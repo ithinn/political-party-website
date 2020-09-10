@@ -31,15 +31,15 @@ footer {
 #sti {
     display: flex;
     flex-direction: row;
-    padding: .08em;
+    padding: .08em .08em .08em 2em;
     height: 5vh;
     width: 100%;
     align-items: center;
     position: fixed;
     top: 12vh;
     background-color: white;
-    z-index: 100;
-    margin-left: 2em;
+    z-index: 1;
+    
     
     
 }
@@ -48,6 +48,7 @@ footer {
 
 #sti h4 {
     padding: 0 1em;
+    margin-left: 2em;
 }
 
 #sti a:hover {

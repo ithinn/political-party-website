@@ -192,6 +192,15 @@ a {
     text-align: center;
 }
 
+/*burger*/
+#menu a {
+    font-family: "Avenir Next LT Pro";
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
 
 
 /*FORM*/
