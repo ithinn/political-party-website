@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style/header-and-nav.css">
     <link rel="stylesheet" href="./style/boxes-and-icons.css">
     <link rel="stylesheet" href="style/samferdsel.css">
+    <link rel="stylesheet" href="style/responsive.css">
     
     
 </head>
@@ -26,7 +27,24 @@
             <a href="innspill.html" id="nav-3-underpage">Si hva du mener</a>
             <a href="bli-med.html" id="nav-4-underpage">Bli med!</a>
         </nav>
-          <img id="menu-icon" class="icons" src="./images/menu-icon.png" alt="lenke til meny">
+        <div id="burger-wrapper">
+            <input type="checkbox" id="cb">
+        
+            <label id="burger" for="cb">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+                
+            <nav id="menu">
+                <a href="./samferdsel.html">Hva mener vi?</a>
+                <a href="./politikere.html">Politikerne våre</a>
+                <a href="./innspill.html">Si hva du mener</a>
+                <a href="./bli-med.html">Bli med</a>            
+                <a href="./bli-med.html">Kontakt</a>            
+                        
+            </nav>
+          </div>
           <img id="search-icon" class="icons" src="images/search-icon.png" alt="lenke til søk">
       </div>
   </header>
