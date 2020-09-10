@@ -1,12 +1,12 @@
 /*bakgrunnsbilde*/
 #main-content {
-    height: 67vh;
+    height: 75vh;
     background-image: url("../images/mdg-youngstorget.jpeg");
     background-size: cover;
     background-position: center;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-auto-flow: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 

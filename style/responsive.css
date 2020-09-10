@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 /*RESPONSIVT*/
 
 
@@ -8,6 +13,8 @@
     }
 
     /*HEADER and NAV*/
+
+    /*underpage*/
     .main.main-nav-underpage {
         padding-left: .5em;
     }
@@ -18,10 +25,67 @@
     #cb:checked ~ #burger div:last-child {
         transform: translateY(-1.5em) rotate(-45deg);
     }
+
     /*frontpage*/
     #slogan {
         margin-left: 5vw;
-    }    
+    }
+    
+    #main-nav {
+        height: 11vh;
+    }
+
+    /*HVA-MENER-VI-BOKSEN*/
+
+    /*frontpage*/
+    .choice-box-front {
+        
+        height: 53%;
+    }
+
+    .search-heading-front {
+        margin: .5em auto;
+        
+    }
+
+    #front-form {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: left;
+        align-items: start;
+        width: 80%;
+        margin: 0 auto .5em auto;
+        grid-row: 2 / span1;
+        gap: .5em;
+    }
+
+
+
+    #front-input {
+        background-color: white;
+        border: 4px solid #4f5151;
+        color: #4f5151;
+        grid-column: 1 / span 1;
+        width: 100%;
+        padding: 0;
+        
+        
+         
+    }
+    
+    #search { 
+        height: 2em;
+        justify-self: start;
+        width: 100%;
+        background-color: #D94B8E;
+        border: none;
+        color: white;
+    }
+
+  
+    
+
+
 }
 
 
@@ -34,6 +98,8 @@
     }
    
      /*HEADER and NAV*/
+
+     /*underpage*/
     #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
         padding: 1em 1em 1em 0;
     }
@@ -42,7 +108,17 @@
     #slogan {
         font-size: 7rem;
     }
+
+    #nav-1, #nav-2, #nav-3, #nav-4 {
+        font-size: 1.8rem;
+    }
+
+    /*POLITIKERE*/
+    #animated-h1 {
+    font-size: 6rem;
+    
 }
+
 
 
 
@@ -54,6 +130,8 @@
     }
 
      /*HEADER and NAV*/
+
+     /*underpage*/
     .main-nav-underpage {
         display: none;
     }
@@ -102,9 +180,18 @@
 
     }
     
+    #main-nav {
+        display: none;
+    }
+
+    .search-heading-front {
+        font-size: 5rem;
+    }
+
+    /*POLITIKERE*/
+    #animated-h1 {
+        font-size: 4.5rem;
+        padding-top: .6em;
 
 
 }
-
-
-

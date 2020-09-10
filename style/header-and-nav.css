@@ -35,10 +35,6 @@
 
 
 
-#menu-front {
-    grid-row: 2 / span 1;
-    grid-column: 12 / span 1;
-}
 
 #search-front {
     width: 3em;
@@ -50,14 +46,11 @@
 }
 
 #search-front:hover {
-    width: 2.1em;
-    height: 2.1em;
+    width: 2.15em;
+    height: 2.15em;
 }
 
-#menu-front:hover {
-    width: 2.1em;
-    height: 2.1em;
-}
+
 
 
 /*NAV FRONTPAGE*/
