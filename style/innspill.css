@@ -6,10 +6,9 @@
 
 main {
     width: 100%;
-    height: 100%;
+    
     margin: 0 auto;
-    position: relative;
-    top: 17vh;
+    
     display: flex;
     justify-content: center;
     
@@ -29,24 +28,19 @@ footer {
    
 }
 
-#grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr;
-    grid-auto-flow: column;
+#feedback-container {
     width: 70%;
     height: fit-content;
     background-color:white;
+    
     margin: 0 auto;
     position: absolute;
-    top: 25vh;
+    top: 55vh;
    
 }
 
 #headings {
    margin: 5em 2em 1em 2em;
-   grid-row: 1 / span 1;
-    
 }
 
 #headings h2 {
@@ -55,24 +49,27 @@ footer {
 }
 
 #form-section {
-    width: 60%;
+    width: 100%;
     height: fit-content;
-    min-width: 50em;
+    
     margin: 3em auto;
-    background-color: white;
+    
   
  
     
 }
 
 form {
+    width: 60%;
+    margin: 0 auto;
+    /*
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10% 10% 10% 10% 50% 10%;
     grid-auto-flow: column;
     gap: 1em;
     justify-items: start;
-    align-items: center;
+    align-items: center;*/
     
 }
 

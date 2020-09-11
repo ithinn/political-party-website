@@ -185,8 +185,9 @@ label {
     
 }
 
-.membership input {
+.membership input, #feedback input, #feedback select {
     margin-bottom: 2em;
     margin-top: .5em;
     
 }
+

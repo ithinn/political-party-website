@@ -63,21 +63,22 @@
 
   <main>
     <section id="background"></section>
-        <div id="grid-container">
-      <section id="headings">
-          <h1 class="color-heading">Har du innspill?</h1>
-          <h2 class="ingress">Vi vil gjerne høre din mening. Vi rekker ikke å svare alle, men lover at alle innspill blir lest.</h2>
-      </section>
 
-      <section id="form-section">
-          <form method="POST" action="http://server1">
+        <div id="feedback-container">
+            <section id="headings">
+                <h1 class="color-heading">Har du innspill?</h1>
+                <h2 class="ingress">Vi vil gjerne høre din mening. Vi rekker ikke å svare alle, men lover at alle innspill blir lest.</h2>
+            </section>
+
+            <section id="form-section">
+                <form id="feedback" method="POST" action="http://server1">
         
-            <label id="label-name" for="name">Fullt navn: </label>
-            <input id="name" type="text" name="name" required >
+                    <label id="label-name" for="name">Fullt navn: </label>
+                    <input id="name" type="text" name="name" required >
            
 
-            <label id="label-mail" for="mail">Epost: </label>
-            <input id="mail" type="email" name="mail" required>
+                    <label id="label-mail" for="mail">Epost: </label>
+                    <input id="mail" type="email" name="mail" required>
       
             
             <label id="label-org" for="org-select">Organisasjon/tilhørighet</label>

@@ -17,6 +17,12 @@
     .banner-heading {
         top: 75%;
     }
+
+    /*INNSPILL*/
+    #feedback-container {
+        top: 45vh;
+        
+    }
     
 }
 
@@ -132,6 +138,8 @@
         font-size: 6rem;
         top: 90%;
     }
+
+   
     
 }
 
@@ -211,3 +219,18 @@
 
 
 }
+     /*INNSPILL*/
+     #feedback {
+        width: 90%;
+    }
+
+    #feedback-container {
+        width: 90%;
+        
+    }
+    
+    .membership input, #feedback input, #feedback select {
+        margin-bottom: 2.5em;
+        margin-top: .5em;
+        
+    }
