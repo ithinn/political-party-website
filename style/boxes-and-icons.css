@@ -116,26 +116,43 @@
 
 
 /*BUTTONS*/
+
+/*
 .link-button {
     background-color: #D94B8E;
     border: none;
     color: white;
     padding: .5em;
     margin-top: 1em;
-}
+}*/
 
-.link-button:hover {
-    background-color: #a2b424;
+#donor-button {
+    background-color:  #F4CF27;
+    color: #4f5151;
 }
 
 #member-button, #donor-button {
-    font-size: 2.1rem;
-    font-weight: 400;
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;
+    font-size: 3rem;
 }
 
 
+
+.standard-button {
+    border: none;
+    color: white;
+    padding: .5em;
+    background-color: #D94B8E;
+
+}
+
+.standard-button:hover {
+    background-color: #a2b424;
+}
+
+#donor-button:hover {
+    background-color: #a2b424;
+}
 
 
 /*FORMS*/
@@ -146,6 +163,7 @@ input, select, textarea {
     color: #4f5151;
     width: 100%;
     padding: .2em;
+    
 }
 
 input[type=submit] { 
@@ -156,8 +174,19 @@ input[type=submit] {
     padding: .2em;
 }
 
+input[type=submit]:hover {
+    background-color: #a2b424;
+}
+
 label {
     background-color: #a2b424;
     color: white;
     padding: .3em;
+    
+}
+
+.membership input {
+    margin-bottom: 2em;
+    margin-top: .5em;
+    
 }

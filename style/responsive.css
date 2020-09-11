@@ -5,6 +5,20 @@
 
 /*RESPONSIVT*/
 
+@media (max-width: 1340px) {
+    main {
+        background-color: yellow;
+    }
+
+    #join-us {
+        margin-top: 15em;
+    }
+    
+    .banner-heading {
+        top: 75%;
+    }
+    
+}
 
 @media (max-width: 1148px) {
 
@@ -67,10 +81,7 @@
         color: #4f5151;
         grid-column: 1 / span 1;
         width: 100%;
-        padding: 0;
-        
-        
-         
+        padding: 0;    
     }
     
     #search { 
@@ -81,11 +92,6 @@
         border: none;
         color: white;
     }
-
-  
-    
-
-
 }
 
 
@@ -116,6 +122,16 @@
     /*POLITIKERE*/
     #animated-h1 {
     font-size: 6rem;
+
+    }
+
+    /*BLI MED*/
+
+    .banner-heading {
+        width: 90%;
+        font-size: 6rem;
+        top: 90%;
+    }
     
 }
 

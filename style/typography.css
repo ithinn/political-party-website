@@ -89,6 +89,8 @@ a {
     letter-spacing: 3px;
 }
 
+
+
 /*index*/
 .search-heading-front{
     font-family: "The Hand";
@@ -127,29 +129,20 @@ a {
 
 
 /*BUTTONS*/
+/*buttons that are input[type=submit] is in "FORM"*/
 
-/*samferdsel*/
-#underpage-search-button, .standard-button { 
-    font-family: "League Gothic";
-    font-size: 2rem;
-    letter-spacing: 3px;
+
+.standard-button {
+    font-family: "League Gothic", "Avenir Next LT Pro", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
     text-transform: uppercase;
+    letter-spacing: 2px;
+
 }
 
-/*index*/
-#search {
-    font-size: 2.5rem;
-    font-family: "League Gothic";
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-/*bli med, samferdsel*/
-.link-button {
-    font-family: "League Gothic";
-    font-weight: 600;
-    font-size: 1.6em;
-    text-transform: uppercase;
+#member-button, #donor-button {
+    font-size: 3rem;
 }
 
 
@@ -204,14 +197,14 @@ a {
 
 
 /*FORM*/
-form, select, textarea, input[type=text], input[type=email] {
+form, select, textarea, input[type=text], input[type=email], input[type="number"], input[type=date] {
     font-family: "Avenir Next LT Pro";
     font-size: 2rem;
     font-weight: 500;
 }
 
 
-input[type=submit] { 
+input[type=submit], #underpage-input, #underpage-search-button, #front-input { 
     font-family: "League Gothic";
     font-size: 2rem;
     letter-spacing: 3px;
@@ -219,15 +212,19 @@ input[type=submit] {
 }
 
 #front-input  {
-    font-family: "League Gothic";
     font-size: 4rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
 }
 
+/*index*/
+#search {
+    font-size: 2.5rem;
+}
+
+
+/*
 #underpage-input {
     font-family: "League Gothic";
     font-size: 2rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-}
+}*/

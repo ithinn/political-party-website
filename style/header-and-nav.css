@@ -222,11 +222,11 @@ a:hover {
 }
 
 #cb:checked ~ #burger div:first-child {
-    transform: translateY(1.4em) rotate(45deg);
+    transform: translateY(11px) rotate(45deg);
 }
 
 #cb:checked ~ #burger div:last-child {
-    transform: translateY(-1.4em) rotate(-45deg);
+    transform: translateY(-11px) rotate(-45deg);
 }
 
 #cb:checked ~ #burger div:nth-child(2) {
@@ -252,8 +252,11 @@ a:hover {
 /*forstørrelsesglass*/
 
 #search-icon {
-    grid-column: 12/ span 1;
-    justify-self: end;
+    position: absolute;
+    top: 3.7vh;
+    right: 6em;
+    width: 32px;
+    height: 32px;
     
 }
 

@@ -1,92 +1,87 @@
+/*
 main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     position: relative;
     top: 17vh;
-}
+}*/
 
 #banner {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-image: url("../images/mdg-valgvake.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-row: 1 / span 1;
-    
-    
+   
 }
 
 .banner-heading {
     background-color: #66C9D8;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     position: relative;
-    top: 75%;
+    top: 80%;
     padding: .2em;
-  
 }
 
 #join-us {
-    grid-row: 2 /span 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15% 85%;
+    
     width: 80%;
-    margin: 7rem auto;
-    align-items: center;
-    gap: 3em;
-
-
+    height: fit-content;
+    margin: 10em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    align-items: space-between;
 }
 
-#member-button {
-    grid-row: 1 / span 1;
-    grid-column: 1 / span 1;
-}
-
-#donor-button {
-    grid-row: 1 / span 1;
-    grid-column: 2 / span 1;
-    background-color:  #F4CF27;
-    color: #4f5151;
-}
-
-#donor-button:hover {
-    background-color: #a2b424;
-}
-
-#a1 {
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 1;
-    align-self: start;
+article {
     
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    
+    width: 40em;
+    margin-bottom: 4em;
 }
 
-#a2 {
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 1;
-    align-self: start;
-    
+#member-button, #donor-button {
+    margin-bottom: 1em;
 }
 
-#a1 .ingress, #a2 .ingress {
-    
+#a1 .ingress, #a2 .ingress, #a1 h2 {
     width: 80%;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
-.price {
-    text-align: left;
+/*FORM*/
+
+input[type=radio] {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+    
+
 }
 
-#a1 h2 {
-  width: fit-content;
-  margin: 2em auto 1em auto;
+input[type=radio] + label {
+    background-color: #66C9D8;
+    display: inline-block;
+}
 
+input[type=radio] + label:checked {
+    background-color: #D94B8E;
+}
+
+input[type=radio]:focus + label {
+    font-style: italic;
+    background-color: #D94B8E;
+  }
+
+.radio-label {
+    margin-top: .2em;
 }
