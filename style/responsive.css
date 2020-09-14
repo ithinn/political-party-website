@@ -100,9 +100,25 @@
         border: none;
         color: white;
     }
+
+    .big-pol {
+        align-items: top;
+    }
+
+    .p-pol {
+        padding-top: .5em;
+        
+    }
 }
 
+@media (max-width: 950px) {
+    /*samferdsel*/
+    .color-heading {
+        align-self: center;
+    }
 
+    
+}
 
 
 
@@ -133,6 +149,10 @@
 
     }
 
+    #s1-pol {
+        margin-top: 4em;
+    }
+
     /*BLI MED*/
 
     .banner-heading {
@@ -141,7 +161,94 @@
         top: 90%;
     }
 
-   
+    /*POLITIKERE*/
+
+    #s1-pol {
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        height: auto;
+        gap: 4em;
+    }
+    
+    #a1 {
+        grid-row: 1 /span 1;
+    }
+
+    #a2 {
+        grid-row: 2 / span 1;
+    }
+    
+    #a3 {
+        grid-row: 3 / span 1;
+    }
+    
+    #a1, #a2, #a3 {
+        height: auto;
+        display: grid;
+        grid-template-areas: 
+            "image image"
+            "text text";
+        width: 100%;
+        
+    }
+
+    #a1-img, #a2-img, #a3-img {
+        grid-area: image;
+    }
+    
+    #text1, #text2, #text3 {
+        grid-area: text;
+    }
+    
+    .text-wrap-pol {
+        width: 90%;
+    }
+    
+     /*SAMFERDSEL*/
+     .color-heading {
+        align-self: center;
+        
+    }
+    
+    .large-img {
+        grid-row: 1 / span 3;
+        grid-column: 1 / span 12;
+        background-position: top;
+        
+    }
+
+    .choice-box-a1 {
+        display: none;
+    }
+
+    .bullet-points {
+        grid-column: 2 / span 10;
+        grid-row: 1 /span 3;
+        display: grid;
+        grid-template-rows: 20% 60% 20%;
+        align-items: center;
+        background-color: white;
+        
+    }
+
+    .arrow-down {
+        grid-row: 3;
+        align-self: end;
+        grid-column: 4 /span 6;
+        justify-self: center;
+    }
+
+    #text-wrapper {
+        width: 100%;
+        top: 40vh;
+    }
+
+    #article-text {
+        width: 80%;
+
+
+  
     
 }
 
@@ -216,11 +323,14 @@
 
     /*POLITIKERE*/
     #animated-h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
         padding-top: .6em;
+    }
 
-
-}
+    #s1-pol {
+        margin-top: -2em;
+    }
+     
      /*INNSPILL*/
      #feedback {
         width: 90%;
@@ -236,3 +346,7 @@
         margin-top: .5em;
         
     }
+
+    /*SAMFERDSEL*/
+  
+}

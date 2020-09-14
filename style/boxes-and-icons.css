@@ -52,34 +52,27 @@
     background-color: white;
     grid-row: 1 / span 1;
     grid-column: 2 / span 4;    
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 45% 55%; 
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-top: 5em;
     min-height: 15em;
     padding: 2em;
 }
     
 #search-heading-underpage {
-    grid-row: span 1;
-    grid-column: 2 / span 7;
-    align-self: end;
-    justify-self: start;
+    text-align: left;
+    margin-left: .3em;
 }
     
 #underpage-form {
-    grid-row: 2 / span 1;
-    grid-column: 2 / span 10;
-    align-self: center;
+    
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 70% 25%;
     grid-template-rows: 1fr;
-    justify-items: start;
-    align-items: bottom;
-    column-gap: 1em;
-    row-gap: 2em;
+    margin: 1em .5em;
+
 }
 
 #underpage-input {
@@ -131,6 +124,10 @@
     color: #4f5151;
 }
 
+#member-button {
+    background-color: #6a9325;
+}
+
 #member-button, #donor-button {
     width: 100%;
     font-size: 3rem;
@@ -150,9 +147,7 @@
     background-color: #a2b424;
 }
 
-#donor-button:hover {
-    background-color: #a2b424;
-}
+
 
 
 /*FORMS*/
@@ -190,4 +185,10 @@ label {
     margin-top: .5em;
     
 }
+
+#m-sub1 {
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
 

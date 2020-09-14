@@ -30,7 +30,7 @@
 h2 {
     font-family: "Avenir Next LT Pro";
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
 
@@ -89,7 +89,17 @@ a {
     letter-spacing: 3px;
 }
 
+/*politikere*/
+.h2-pol {
+    font-size: 2rem;
+    font-weight: 900;
+}
 
+.h3-pol {
+    font-size: 1.8rem;
+    font-weight: 500;
+   
+}
 
 /*index*/
 .search-heading-front{

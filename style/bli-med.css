@@ -64,8 +64,6 @@ input[type=radio] {
     height: 1px;
     opacity: 0;
     position: absolute;
-    
-
 }
 
 input[type=radio] + label {
@@ -74,12 +72,12 @@ input[type=radio] + label {
 }
 
 input[type=radio] + label:checked {
-    background-color: #D94B8E;
+    background-color: #a2b424;
 }
 
 input[type=radio]:focus + label {
     font-style: italic;
-    background-color: #D94B8E;
+    background-color: #a2b424;
   }
 
 .radio-label {

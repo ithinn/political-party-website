@@ -53,7 +53,7 @@ section {
 .large-img {
     grid-row: 1 / span 3;
     grid-column: 1 / span 6;
-    background-image: url("../images/hurtigtog.jpeg");
+    background-image: url("../images/education.jpg");
     background-size: cover;
     background-position: center;   
 }
@@ -127,7 +127,6 @@ margin: 2vh auto;
 
 #article-text {
   width: 60%;
-  height: 80%;
   margin: 0 auto;
   
 }
@@ -145,7 +144,6 @@ margin: 2vh auto;
 
 #text-wrapper {
     width: 70%;
-    height: auto;
     background-color: white;
     position: relative;
     top: 22vh;
@@ -154,10 +152,4 @@ margin: 2vh auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-    margin-bottom: 2em;
-}
-
-#download-button {
-   margin-top: 2em;
 }
