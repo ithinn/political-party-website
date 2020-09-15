@@ -18,7 +18,7 @@ footer {
     justify-self: flex-end;
 }
 
-#background {
+#background-feedback {
    background-image: url("../images/stortinget1.png");
    background-size: cover;
    background-position: top;

@@ -4,9 +4,6 @@
     
     display: flex;
     flex-direction: column;
-    
-    
-    
     height: 60%;
     width: 60%;
 }
@@ -104,6 +101,14 @@
 #down-arrow, #up-arrow {
     width: 5em;
 }
+
+.arrow-down:hover {
+    filter: saturate(90);
+}
+.arrow-up:hover {
+    filter: saturate(90);
+}
+
 
 
 

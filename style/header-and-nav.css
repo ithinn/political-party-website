@@ -235,11 +235,11 @@ a:hover {
 }
 
 #cb:checked ~ #burger-front div:first-child {
-    transform: translateY(1.4em) rotate(45deg);
+    transform: translateY(11px) rotate(45deg);
 }
 
 #cb:checked ~ #burger-front div:last-child {
-    transform: translateY(-1.4em) rotate(-45deg);
+    transform: translateY(-11px) rotate(-45deg);
 }
 
 #cb:checked ~ #burger-front div:nth-child(2) {

@@ -1,9 +1,9 @@
 /*bakgrunnsbilde*/
 #main-content {
     height: 75vh;
-    background-image: url("../images/mdg-youngstorget.jpeg");
+    background-image: url("../images/urban-forest.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top right;
     display: flex;
     align-items: center;
     justify-content: center;

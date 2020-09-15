@@ -40,13 +40,8 @@
     .main.main-nav-underpage {
         padding-left: .5em;
     }
-    #cb:checked ~ #burger div:first-child {
-        transform: translateY(1.5em) rotate(45deg);
-    }
     
-    #cb:checked ~ #burger div:last-child {
-        transform: translateY(-1.5em) rotate(-45deg);
-    }
+   
 
     /*frontpage*/
     #slogan {
@@ -143,23 +138,29 @@
         font-size: 1.8rem;
     }
 
-    /*POLITIKERE*/
-    #animated-h1 {
-    font-size: 6rem;
-
-    }
-
-    #s1-pol {
-        margin-top: 4em;
-    }
-
     /*BLI MED*/
 
     .banner-heading {
         width: 90%;
         font-size: 6rem;
-        top: 90%;
+        top: 64%;
     }
+
+    #banner {
+        height: 100vh;
+    }
+
+    #join-us {
+        margin-top: 5em;
+        top: -20vh;
+        
+    }
+
+    #a1-join {
+        background-color: white;
+    }
+
+
 
     /*POLITIKERE*/
 
@@ -190,7 +191,6 @@
             "image image"
             "text text";
         width: 100%;
-        
     }
 
     #a1-img, #a2-img, #a3-img {
@@ -204,18 +204,34 @@
     .text-wrap-pol {
         width: 90%;
     }
+
+    #animated-h1 {
+        font-size: 6rem;
+    }
     
+    #s1-pol {
+        margin-top: 4em;
+    }
+
+    
+
+    /*INNSPILL*/    
+    #background-feedback {
+        height: 100vh;
+  
+    }
+    
+
      /*SAMFERDSEL*/
+
      .color-heading {
         align-self: center;
-        
     }
     
     .large-img {
         grid-row: 1 / span 3;
         grid-column: 1 / span 12;
         background-position: top;
-        
     }
 
     .choice-box-a1 {
@@ -228,8 +244,7 @@
         display: grid;
         grid-template-rows: 20% 60% 20%;
         align-items: center;
-        background-color: white;
-        
+        background-color: white;   
     }
 
     .arrow-down {
@@ -246,10 +261,6 @@
 
     #article-text {
         width: 80%;
-
-
-  
-    
 }
 
 
@@ -286,11 +297,9 @@
         grid-row: 1 / span 1;
     }
 
-   
-     
-     #search-icon {
-         display: none;
-     }
+    #search-icon {
+        display: none;
+    }
 
      /*frontpage*/
      #slogan {
@@ -310,7 +319,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         justify-items: center;
-
     }
     
     #main-nav {
@@ -320,6 +328,24 @@
     .search-heading-front {
         font-size: 5rem;
     }
+
+
+    .choice-box-front {
+        background-color: white;
+        
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        position: relative;
+        
+    }
+
+   
+
+
+
+
 
     /*POLITIKERE*/
     #animated-h1 {
@@ -347,6 +373,28 @@
         
     }
 
-    /*SAMFERDSEL*/
+    
+
+    /*BLI MED*/
+
+    .banner-heading {
+        width: 90%;
+        font-size: 6rem;
+        top: 25%;
+    }
+
+    #banner {
+        height: 100vh;
+    }
+
+    #join-us {
+        margin-top: 5em;
+        top: -40vh;
+        background-color: white;
+    }
+
+    #a1-join, #a2-join {
+        width: 100%;
+    }
   
-}
+};

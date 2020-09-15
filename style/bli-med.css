@@ -37,22 +37,25 @@ main {
     
     flex-wrap: wrap;
     align-items: space-between;
+    position: relative;
 }
 
 article {
     
     display: flex;
     justify-content: flex-start;
+    
     flex-direction: column;
     width: 40em;
     margin-bottom: 4em;
+    border: 1px solid red;
 }
 
 #member-button, #donor-button {
     margin-bottom: 1em;
 }
 
-#a1 .ingress, #a2 .ingress, #a1 h2 {
+#a1-join .ingress, #a2-join .ingress, #a1-join h2 {
     width: 80%;
     margin: 1em auto;
 }
