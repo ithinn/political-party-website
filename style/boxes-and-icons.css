@@ -8,7 +8,7 @@
     width: 60%;
 }
 
-.search-heading-front{
+.choice-heading-front{
     margin-left: 1em;
     margin-top: 1em;
 }
@@ -33,7 +33,7 @@
     padding: .2em;   
 }
 
-#search { 
+#submit-front { 
     height: 2.8em;
     justify-self: end;
     width: 80%;
@@ -45,7 +45,7 @@
 
 
 /*Hva-mener-vi-om-boksen UNDERPAGE*/
-.choice-box-a1 {
+.choice-box-underpage {
     background-color: white;
     grid-row: 1 / span 1;
     grid-column: 2 / span 4;    
@@ -57,12 +57,12 @@
     padding: 2em;
 }
     
-#search-heading-underpage {
+#choice-heading-underpage {
     text-align: left;
     margin-left: .3em;
 }
     
-#underpage-form {
+#header-underpage-form {
     
     display: grid;
     grid-auto-flow: column;
@@ -72,13 +72,13 @@
 
 }
 
-#underpage-input {
+#header-underpage-input {
     grid-column: 1 / span 1;
     width: 100%;
     padding: .2em;
 }
 
-#underpage-search-button { 
+#header-underpage-search-button { 
     grid-column: 2 / span 1;
     justify-self: end;
     width: 90%;
@@ -138,6 +138,11 @@
     font-size: 3rem;
 }
 
+#member-button:hover, #donor-button:hover {
+    background-color: #a2b424;
+    color: white;
+}
+
 
 
 .standard-button {
@@ -150,6 +155,7 @@
 
 .standard-button:hover {
     background-color: #a2b424;
+    
 }
 
 
@@ -185,13 +191,13 @@ label {
     
 }
 
-.membership input, #feedback input, #feedback select {
+.join-form input, #feedback-form input, #feedback-form select {
     margin-bottom: 2em;
     margin-top: .5em;
     
 }
 
-#m-sub1 {
+#join-submit1 {
     margin-top: 2em;
     margin-bottom: 6em;
 }

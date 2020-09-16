@@ -7,7 +7,7 @@
 
 /*VIDEOSEKSJON*/
 
-#s-video {
+#section-video {
     position: relative;
     top: 17vh;
     height: fit-content;
@@ -68,7 +68,7 @@
 
 
 
-#s1-pol {
+#section1-pol {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50vh 50vh 50vh;
@@ -83,7 +83,7 @@
 
 
 
-#a1, #a2, #a3 {
+#candidate1, #candidate2, #candidate3 {
     height: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -96,16 +96,16 @@
 
 
 
-#a1-img, #a2-img, #a3-img{
+#candidate1-img, #candidate2-img, #candidate3-img{
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-#a1-img, #text2, #a3-img {
+#candidate1-img, #candidate2-text, #candidate3-img {
     grid-column: 1 /span 1;
 }
-#text1, #a2-img, #text-3 {
+#candidate1-text, #candidate2-img, #text-3 {
     grid-column: 2 / span 1;
 }
 
@@ -129,11 +129,11 @@
 
 /*FYLKESPOLITIKERE*/
 
-#s2-pol {
+#section2-pol {
     
     position: relative;
     top: 17vh;
-    width: 100%;
+    width: 90%;
     margin: 15em auto;
     
 }

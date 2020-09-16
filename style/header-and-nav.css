@@ -1,5 +1,5 @@
 /*HEADER FRONTPAGE*/
-#frontpage {
+#header-frontpage {
     width: 100%;
     height: 25vh;
     background-color: #6a9325;
@@ -36,7 +36,7 @@
 
 
 
-#search-front {
+#search-icon-front {
     width: 3em;
     height: 3em;
     padding: 0.5em;
@@ -45,7 +45,7 @@
     right: 9em;
 }
 
-#search-front:hover {
+#search-icon-front:hover {
     width: 2.15em;
     height: 2.15em;
 }
@@ -103,7 +103,7 @@ a:hover {
 
 /*HEADER UNDERPAGE*/
 
-#underpage {
+#header-underpage {
     width: 100%;
     height: 12vh;
     background-color: #6a9325;
@@ -177,7 +177,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#burger-front {
+#burger-frontpage {
     width: 32px;
     height: 32px;
     display: grid;
@@ -191,12 +191,12 @@ a:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#burger div, #burger-front div {
+#burger div, #burger-frontpage div {
     background-color: white;  
     transition: .5s;  
 }
 
-#menu {
+#dropdown-menu {
     background-color:#6a9325;
     height: 50vh;  
     width: 100%;
@@ -210,14 +210,14 @@ a:hover {
     transition: 0.3s;    
 }
 
-#menu a {
+#dropdown-menu a {
     
     text-decoration: none;
     color: white;
     font-weight: 700;
 }
 
-#cb:checked ~ #menu {
+#cb:checked ~ #dropdown-menu {
     left: 0;
 }
 
@@ -234,15 +234,15 @@ a:hover {
     opacity: 0;
 }
 
-#cb:checked ~ #burger-front div:first-child {
+#cb:checked ~ #burger-frontpage div:first-child {
     transform: translateY(11px) rotate(45deg);
 }
 
-#cb:checked ~ #burger-front div:last-child {
+#cb:checked ~ #burger-frontpage div:last-child {
     transform: translateY(-11px) rotate(-45deg);
 }
 
-#cb:checked ~ #burger-front div:nth-child(2) {
+#cb:checked ~ #burger-frontpage div:nth-child(2) {
     transform: translateX(-600px);
     opacity: 0;
 }

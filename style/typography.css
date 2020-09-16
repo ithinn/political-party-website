@@ -78,6 +78,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
+    color: #66C9D8;
 }
 
 /*index, bli-med*/
@@ -94,16 +95,21 @@ a {
 .h2-pol {
     font-size: 2rem;
     font-weight: 900;
+    background-color: #a2b424;
+    width: fit-content;
+    color: white;
+    padding: .3em;
 }
 
 .h3-pol {
     font-size: 1.8rem;
     font-weight: 500;
+    
    
 }
 
 /*index*/
-.search-heading-front{
+.choice-heading-front{
     font-family: "The Hand";
     font-weight: 900;
     font-size: 6rem;
@@ -111,7 +117,7 @@ a {
 }
 
 /*samferdsel*/
-#search-heading-underpage {
+#choice-heading-underpage {
     font-family: "The Hand";
     font-weight: 900;
     font-size: 3.5rem;
@@ -197,7 +203,7 @@ a {
 }
 
 /*burger*/
-#menu a {
+#dropdown-menu a {
     font-family: "Avenir Next LT Pro";
     font-size: 2rem;
     text-decoration: none;
@@ -215,7 +221,7 @@ form, select, textarea, input[type=text], input[type=email], input[type="number"
 }
 
 
-input[type=submit], #underpage-input, #underpage-search-button, #front-input { 
+input[type=submit], #header-underpage-input, #header-underpage-search-button, #front-input { 
     font-family: "League Gothic";
     font-size: 2rem;
     letter-spacing: 3px;
@@ -227,13 +233,13 @@ input[type=submit], #underpage-input, #underpage-search-button, #front-input {
 }
 
 /*index*/
-#search {
+#submit-front {
     font-size: 2.5rem;
 }
 
 
 /*
-#underpage-input {
+#header-underpage-input {
     font-family: "League Gothic";
     font-size: 2rem;
     letter-spacing: 3px;

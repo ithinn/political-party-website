@@ -17,7 +17,7 @@ section {
     scroll-snap-align: center;
     
 }
-#s1 {
+#section1-basic {
     height: 83vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -28,7 +28,7 @@ section {
     
 }
 
-#s2 {
+#section2-elaborate {
     height: auto;
     width: 100%;
     
@@ -50,7 +50,7 @@ section {
 }
 
 /*bakgrunnsbildet*/
-.large-img {
+.background-image-topic {
     grid-row: 1 / span 3;
     grid-column: 1 / span 6;
     background-image: url("../images/education.jpg");
@@ -133,7 +133,7 @@ margin: 2vh auto;
 
 
 
-#background {
+#background-img-elaborate-img-elaborate {
     background-image: url("../images/kollektivtransport.jpg");
    background-size: cover;
    background-position: center;

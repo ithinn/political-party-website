@@ -1,5 +1,5 @@
 window.onload = () => {
-  document.querySelector('#search').addEventListener('click', (e) => {
+  document.querySelector('#submit-front').addEventListener('click', (e) => {
     e.preventDefault();
     let optionValue = document.querySelector('#front-input').value;
     
