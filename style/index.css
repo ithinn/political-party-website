@@ -1,4 +1,9 @@
-/*bakgrunnsbilde*/
+/*
+"Hva mener MDG"-boksen ligger i "boxes-and-icons".
+Headeren ligger i "header-and-nav"*/
+
+
+/*BAKGRUNNSBILDE*/
 #main-content {
     height: 75vh;
     background-image: url("../images/urban-forest.jpg");
@@ -7,6 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
 

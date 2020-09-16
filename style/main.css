@@ -15,23 +15,10 @@ body {
     max-height: 100%;
     color: #4f5151;
     overflow-x: hidden;
-    
-    
-}
-
-
-
-footer {
-    height: 15vh;
-    background-color: #4f5151;
-    margin-top: 20em;
-    color: white;
-    width: 100%;
 }
 
 
 /*STI*/
-
 #sti {
     display: flex;
     flex-direction: row;
@@ -43,12 +30,7 @@ footer {
     top: 12vh;
     background-color: white;
     z-index: 1;
-    
-    
-    
 }
-
-
 
 #sti h4 {
     padding: 0 1em;

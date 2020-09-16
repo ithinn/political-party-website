@@ -1,21 +1,24 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
+/*Koden er organisert etter @media-queries:
 
-/*RESPONSIVT*/
+1. max-width: 1340px (gul)
+2. max-width: 1148px (grå)
+3. max-width: 950px
+4. max-width: 882px
+5. max-width: 699px
+
+*/
 
 @media (max-width: 1340px) {
-    main {
+    
+    /*main {
         background-color: yellow;
-    }
+    }*/
 
+    /*BLI MED*/
     #join-us-section {
         margin-top: 15em;
     }
 
-    /*BLI MED*/
-   
     .banner-heading {
         top: 75%;
     }
@@ -23,46 +26,39 @@
     /*INNSPILL*/
     #feedback-container {
         top: 45vh;
-        
     }
-    
 }
+
+
+
 
 @media (max-width: 1148px) {
 
-    main {
+    /*main {
         background-color: gray;
-    }
+    }*/
 
-    /*HEADER and NAV*/
-
-    /*underpage*/
-    .main.main-nav-underpage {
+    /*NAV*/
+    .main-nav-underpage {
         padding-left: .5em;
     }
-    
-   
 
-    /*frontpage*/
+    #main-nav {
+        height: 11vh;
+    }
+    
+    /*FORSIDE*/
     #slogan {
         margin-left: 5vw;
     }
     
-    #main-nav {
-        height: 11vh;
-    }
-
-    /*HVA-MENER-VI-BOKSEN*/
-
-    /*frontpage*/
+    /*BOKSER*/
     .choice-box-front {
-        
         height: 53%;
     }
 
     .choice-heading-front {
-        margin: .5em auto;
-        
+        margin: .5em auto; 
     }
 
     #front-form {
@@ -75,8 +71,6 @@
         grid-row: 2 / span1;
         gap: .5em;
     }
-
-
 
     #front-input {
         background-color: white;
@@ -96,6 +90,7 @@
         color: white;
     }
 
+    /*POLITIKERE*/
     .featured-pol {
         align-items: top;
     }
@@ -106,40 +101,40 @@
     }
 }
 
+
+
+
 @media (max-width: 950px) {
-    /*samferdsel*/
+    /*HVA MENER MDG*/
     .color-heading {
         align-self: center;
     }
-
-    
 }
 
 
 
-@media (max-width: 882px) {
-    main {
-        background-color: blue;
-    }
-   
-     /*HEADER and NAV*/
 
-     /*underpage*/
+@media (max-width: 882px) {
+    
+    /*main {
+        background-color: blue;
+    }*/
+   
+     /*NAV*/
     #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
         padding: 1em 1em 1em 0;
-    }
-
-    /*frontpage*/
-    #slogan {
-        font-size: 7rem;
     }
 
     #nav-1, #nav-2, #nav-3, #nav-4 {
         font-size: 1.8rem;
     }
 
-    /*BLI MED*/
+    /*FORSIDE*/
+    #slogan {
+        font-size: 7rem;
+    }
 
+    /*BLI MED*/
     .banner-heading {
         width: 90%;
         font-size: 6rem;
@@ -153,19 +148,14 @@
     #join-us-section {
         margin-top: 5em;
         top: -20vh;
-        
     }
 
     #membership-join {
         background-color: white;
     }
 
-
-
     /*POLITIKERE*/
-
     #section1-pol {
-        
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
         height: auto;
@@ -213,17 +203,12 @@
         margin-top: 4em;
     }
 
-    
-
     /*INNSPILL*/    
     #feedback-background {
         height: 100vh;
-  
     }
     
-
-     /*SAMFERDSEL*/
-
+     /*HVA MENER MDG?*/
      .color-heading {
         align-self: center;
     }
@@ -261,29 +246,31 @@
 
     #article-text {
         width: 80%;
+    }
 }
 
 
 
 
-
-
 @media (max-width: 699px) {
-    main {
+    
+    /*main {
         background-color: red;
-    }
+    }*/
 
-     /*HEADER and NAV*/
-
-     /*underpage*/
+     /*NAV*/
     .main-nav-underpage {
         display: none;
     }
 
+    #main-nav {
+        display: none;
+    }
+
+    /*HEADER UNDERSIDER*/
     #header-underpage {
         height: 25vh;
         position: relative;
-        
     }
    
     #header-underpage-content {
@@ -307,8 +294,7 @@
         display: none;
     }
 
-
-     /*frontpage*/
+     /*FORSIDEN*/
      #slogan {
         display: none;
     }
@@ -328,34 +314,23 @@
         justify-items: center;
     }
     
-    #main-nav {
-        display: none;
-    }
-
     .choice-heading-front {
         font-size: 5rem;
     }
 
-
     .choice-box-front {
         background-color: white;
-        
         display: flex;
         flex-direction: column;
         height: 50%;
         width: 100%;
         position: relative;
-        
     }
 
-    /*underpage*/
-   #sti {
+    /*MAIN*/
+    #sti {
        display: none;
-   }
-
-
-
-
+    }
 
     /*POLITIKERE*/
 
@@ -378,17 +353,14 @@
 
     #feedback-container {
         width: 90%;
-        
     }
     
     .join-form input, #feedback-form input, #feedback-form select {
         margin-bottom: 2.5em;
         margin-top: .5em;
-        
     }
 
-    /*SAMFERDSEL*/
-
+    /*HVA MENER MDG?*/
     #section1-basic{
         top: 0;
         height: 76vh;
@@ -414,9 +386,7 @@
         align-self: end;
     }
 
-
     /*BLI MED*/
-
     .banner-heading {
         width: 90%;
         font-size: 6rem;
@@ -436,5 +406,4 @@
     #membership-join, #donor-join {
         width: 100%;
     }
-  
-};
+}

@@ -1,7 +1,6 @@
-/*Hva-mener-vi-om-boksen FRONTPAGE*/
+/*HVA MENER MDG-BOKS forside*/
 .choice-box-front {
     background-color: white;
-    
     display: flex;
     flex-direction: column;
     height: 60%;
@@ -14,14 +13,12 @@
 }
 
 #front-form {
-    
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 1fr;
     justify-items: start;
     align-items: center;
     margin: 2em 3em 1em 3em;
-    
 }
 
 #front-input {
@@ -37,14 +34,10 @@
     height: 2.8em;
     justify-self: end;
     width: 80%;
-    background-color: #D94B8E;
-    border: none;
-    color: white;
 }
 
 
-
-/*Hva-mener-vi-om-boksen UNDERPAGE*/
+/*HVA MENER MDG-BOKS - underside*/
 .choice-box-underpage {
     background-color: white;
     grid-row: 1 / span 1;
@@ -62,36 +55,29 @@
     margin-left: .3em;
 }
     
-#header-underpage-form {
-    
+#underpage-form {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 70% 25%;
     grid-template-rows: 1fr;
     margin: 1em .5em;
-
 }
 
-#header-underpage-input {
+#underpage-input {
     grid-column: 1 / span 1;
     width: 100%;
-    padding: .2em;
+    
 }
 
-#header-underpage-search-button { 
+#submit-underpage { 
     grid-column: 2 / span 1;
     justify-self: end;
     width: 90%;
-    background-color: #D94B8E;
-    color: white;
-    border: none;
-    height: 2em;
-    padding: .2em;
 }
 
 
-/*IKONER*/
 
+/*IKONER (Kun i bruk på "Hva mener MDG-seksjonen"*/
 .arrow-down, .arrow-up {
     width: 8em;
     z-index: 5;
@@ -110,19 +96,17 @@
 }
 
 
-
-
-
 /*BUTTONS*/
-
-/*
-.link-button {
-    background-color: #D94B8E;
+.standard-button {
     border: none;
     color: white;
     padding: .5em;
-    margin-top: 1em;
-}*/
+    background-color: #D94B8E;
+}
+
+.standard-button:hover {
+    background-color: #a2b424;
+}
 
 #donor-button {
     background-color:  #F4CF27;
@@ -135,7 +119,6 @@
 
 #member-button, #donor-button {
     width: 100%;
-    font-size: 3rem;
 }
 
 #member-button:hover, #donor-button:hover {
@@ -144,24 +127,7 @@
 }
 
 
-
-.standard-button {
-    border: none;
-    color: white;
-    padding: .5em;
-    background-color: #D94B8E;
-
-}
-
-.standard-button:hover {
-    background-color: #a2b424;
-    
-}
-
-
-
-
-/*FORMS*/
+/*SKJEMAER*/
 
 input, select, textarea {
     background-color:white;
@@ -188,13 +154,11 @@ label {
     background-color: #a2b424;
     color: white;
     padding: .3em;
-    
 }
 
 .join-form input, #feedback-form input, #feedback-form select {
     margin-bottom: 2em;
-    margin-top: .5em;
-    
+    margin-top: .5em;  
 }
 
 #join-submit1 {

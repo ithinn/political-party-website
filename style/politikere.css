@@ -1,12 +1,10 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
+/*Koden er delt inn slik:
+1. Videoseksjonen
+2. Fremhevede politikere
+3. Fylkespolitikere*/
 
 
 /*VIDEOSEKSJON*/
-
 #section-video {
     position: relative;
     top: 17vh;
@@ -22,7 +20,6 @@
 }
 
 #animated-h1 {
-    
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
@@ -31,18 +28,11 @@
      white-space: nowrap;
     border-right: 4px solid #D94B8E;
     font-size: 7rem;
-    text-align: center;
-    word-wrap: break-word;
-    
-    
+    text-align: center;   
 }
 
 #text-wrapper1 {
-   
-    padding: 1em;
-    
-    
-    
+    padding: 2em;
 }
 
 @keyframes typing {
@@ -64,10 +54,8 @@
 }
 
 
+
 /*FREMHEVEDE POLITIKERE*/
-
-
-
 #section1-pol {
     display: grid;
     grid-template-columns: 1fr;
@@ -76,12 +64,7 @@
     position: relative;
     top: 17vh;
     margin-bottom: 5em;
-
-
 }
-
-
-
 
 #candidate1, #candidate2, #candidate3 {
     height: 50vh;
@@ -91,10 +74,6 @@
     grid-auto-flow: column;
     align-items: center;
 }
-
-
-
-
 
 #candidate1-img, #candidate2-img, #candidate3-img{
     width: 100%;
@@ -109,6 +88,7 @@
     grid-column: 2 / span 1;
 }
 
+/*Tekst - beskrivelse av hver politiker*/
 .text-wrap-pol {
     width: 40vw;
     margin: 0 3em 1em 3em;
@@ -127,44 +107,26 @@
    margin-top: 1em; 
 }
 
-/*FYLKESPOLITIKERE*/
 
+
+/*FYLKESPOLITIKERE*/
 #section2-pol {
-    
     position: relative;
     top: 17vh;
     width: 90%;
     margin: 15em auto;
-    
 }
 
 .h1-backgroundcolor {
     color: white;
     background-color: #D94B8E;
-    
     height: 1.5em;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  
-    
-}
-
-#flex-wrapper img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-    object-position: top;
-}
-
-#flex-wrapper .text-wrap-pol {
-    width: 100%;
-    margin: 1em 0 1em 0;
 }
 
 #flex-wrapper {
-   
     width: 100%;
     height: 100%;
     display: flex;
@@ -174,9 +136,19 @@
     align-items: space-around;
 }
 
+#flex-wrapper .text-wrap-pol {
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+
 #flex-wrapper article {
-  
     width: 350px;
     margin: 0 1em 2em 1em;
 }
 
+#flex-wrapper img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    object-position: top;
+}

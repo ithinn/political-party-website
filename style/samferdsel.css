@@ -1,22 +1,18 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
+/*Slik er koden delt inn:
+1. Rammeverk
+2. Seksjon 1
+3. Seksjon 2*/
 
-
+/*RAMMEVERK*/
 main {
-
-
-/*snapp langs y-linjen - HUSK scroll-snap-align på section*/
 scroll-snap-type: y mandatory;
 height: 100vh;
-
 }
 
 section {
     scroll-snap-align: center;
-    
 }
+
 #section1-basic {
     height: 83vh;
     display: grid;
@@ -25,7 +21,6 @@ section {
     grid-auto-flow: column;
     position: relative;
     top: 17vh;
-    
 }
 
 #section2-elaborate {
@@ -33,12 +28,12 @@ section {
     width: 100%;
     position: relative;
     top: 17vh;
-    padding-top: 13vh;
-
-  
-    
+    padding-top: 13vh;    
 }
 
+
+
+/*SEKSJON 1*/
 /*bakgrunnsbildet*/
 .background-image-topic {
     grid-row: 1 / span 3;
@@ -47,7 +42,6 @@ section {
     background-size: cover;
     background-position: center;   
 }
-
 
 /*Kulepunktteksten*/
 .bullet-points {
@@ -59,7 +53,6 @@ section {
 }
 
 .color-heading {
-    
     align-self: end;
 }
 
@@ -69,19 +62,18 @@ section {
 }
 
 .check-li {
-
     list-style: none;
     background-image: url("../images/check_check.png");
     background-position: left;
     background-repeat: no-repeat;
-    
-    
     line-height: 2em;
     padding: 1em 1em 1em 2em;
 }
 
 
-/*Ikonene*/
+
+/*IKONER*/
+/*Selve stylingen av disse ligger i "boxes-and-icons"*/
 .arrow-down {
     grid-row: 3;
     align-self: end;
@@ -91,26 +83,22 @@ section {
 
 .arrow-up {
 margin: 2vh auto;
-
-    
-    
-}
-
-/*Les-mer-button*/
-.link-button {
-    margin: 0 auto;
 }
 
 
+
+/*SEKSJON 2*/
+/*bakgrunnsbildet*/
+#background-img-elaborate {
+    background-image: url("../images/kollektivtransport.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+}
 
 /*Artikkelteksten*/
-
-.color-heading.article-heading {
-    text-align: left;
-    display: inline;
-    
-}
-
 .article-heading {
     margin: 1em auto 1em auto;
 }
@@ -119,18 +107,6 @@ margin: 2vh auto;
   width: 60%;
   height: 80%;
   margin: 0 auto;
-  
-}
-
-
-
-#background-img-elaborate {
-    background-image: url("../images/kollektivtransport.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 70vh;
-    position: absolute;
 }
 
 #text-wrapper {
@@ -144,10 +120,10 @@ margin: 2vh auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid red;
     margin-bottom: 2em;
 }
 
+/*button (stylingen ligger i "boxes-and-icons"*/
 #download-button {
    margin-top: 2em;
 }

@@ -1,11 +1,4 @@
-/*
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    position: relative;
-    top: 17vh;
-}*/
+/*BAKGRUNNSBILDE OG BANNER*/
 
 #banner-join {
     width: 100%;
@@ -14,7 +7,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
 }
 
 .banner-heading {
@@ -26,29 +18,26 @@ main {
     padding: .2em;
 }
 
+
+/*BLI MEDLEM og BLI DONOR - seksjon, button og rammeverk*/
 #join-us-section {
-    
     width: 80%;
     height: fit-content;
     margin: 10em auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     flex-wrap: wrap;
     align-items: space-between;
     position: relative;
 }
 
 article {
-    
     display: flex;
     justify-content: flex-start;
-    
     flex-direction: column;
     width: 40em;
     margin-bottom: 4em;
-    border: 1px solid red;
 }
 
 #member-button, #donor-button {
@@ -60,7 +49,8 @@ article {
     margin: 1em auto;
 }
 
-/*FORM*/
+
+/*SKJEMAER*/
 
 input[type=radio] {
     width: 1px;

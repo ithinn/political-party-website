@@ -1,4 +1,13 @@
-/*HEADER FRONTPAGE*/
+/*Slik er koden delt inn:
+1. Forside
+2. Undersider
+3. Burgermeny
+4. Søk-symbol*/
+
+
+/*FORSIDE (index.html)*/
+
+/*header*/
 #header-frontpage {
     width: 100%;
     height: 25vh;
@@ -22,8 +31,6 @@
     height: 7em;
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
-   
-    
 }
 
 #slogan {
@@ -33,27 +40,7 @@
     margin-left: 10vw;
 }
 
-
-
-
-#search-icon-front {
-    width: 3em;
-    height: 3em;
-    padding: 0.5em;
-    position: absolute;
-    top: 6vh;
-    right: 9em;
-}
-
-#search-icon-front:hover {
-    width: 2.15em;
-    height: 2.15em;
-}
-
-
-
-
-/*NAV FRONTPAGE*/
+/*nav (index.html)*/
 #main-nav {
     display: grid;
     grid-auto-flow: columns;
@@ -64,18 +51,14 @@
     height: 8vh;
     margin: 0 auto;
     align-items: center;
-    color: #4f5151;
-    
 }
 
 #nav-1, #nav-2, #nav-3, #nav-4 {
-    
     padding: 1em 3em 1em 0;
 }
 
 #nav-1 {
     grid-column: 1 / span 3;
-    grid-row: 
 }
 
 #nav-2 {
@@ -90,19 +73,15 @@
     grid-column: 10 / span 3;
 }
 
-a {
-    color: #4f5151;
-}
-
-a:hover {
+#main-nav a:hover {
     color: #6a9325;
 }
 
 
 
+/*UNDERSIDER*/
 
-/*HEADER UNDERPAGE*/
-
+/*header*/
 #header-underpage {
     width: 100%;
     height: 12vh;
@@ -128,7 +107,7 @@ a:hover {
     grid-column: 1 / span 2;
 }
 
-/*navigasjon*/
+/*nav*/
 .main-nav-underpage {
     grid-column: 3 / span 8;
     display: flex;
@@ -138,23 +117,17 @@ a:hover {
 
 #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
     padding: 1em 3em 1em 0;
-    
+    color: white;
 }
 
-#nav-1-underpage:hover {
-    color:  #66C9D8;
-}
-#nav-2-underpage:hover {
-    color:  #66C9D8;
-}
-#nav-3-underpage:hover {
-    color:  #66C9D8;
-}
-#nav-4-underpage:hover {
-    color:  #66C9D8;
+#nav-1-underpage:hover, #nav-2-underpage:hover, #nav-3-underpage:hover, #nav-4-underpage:hover {
+    text-decoration: underline;
+    font-weight: 600;
 }
 
-/*ikoner, burger*/
+
+
+/*BURGER*/
 #burger-wrapper {
    grid-column: 11 / span 1;
 }
@@ -163,7 +136,7 @@ a:hover {
     position: absolute;
 }
 
-#burger {
+#burger, #burger-frontpage {
     width: 32px;
     height: 32px;
     display: grid;
@@ -172,23 +145,17 @@ a:hover {
     cursor: pointer;    
     z-index: 2;
     position: absolute;
-    top: 3.7vh;
-    right: 2em;
     background-color: rgba(0, 0, 0, 0);
 }
 
+#burger {
+    top: 3.7vh;
+    right: 2em;
+}
+
 #burger-frontpage {
-    width: 32px;
-    height: 32px;
-    display: grid;
-    grid-template-rows: 4px 4px 4px;
-    align-content: space-between;
-    cursor: pointer;    
-    z-index: 2;
-    position: absolute;
     top: 6vh;
     right: 4em;
-    background-color: rgba(0, 0, 0, 0);
 }
 
 #burger div, #burger-frontpage div {
@@ -211,7 +178,6 @@ a:hover {
 }
 
 #dropdown-menu a {
-    
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -221,45 +187,41 @@ a:hover {
     left: 0;
 }
 
-#cb:checked ~ #burger div:first-child {
+#cb:checked ~ #burger div:first-child, #cb:checked ~ #burger-frontpage div:first-child  {
     transform: translateY(11px) rotate(45deg);
 }
 
-#cb:checked ~ #burger div:last-child {
+#cb:checked ~ #burger div:last-child, #cb:checked ~ #burger-frontpage div:last-child {
     transform: translateY(-11px) rotate(-45deg);
 }
 
-#cb:checked ~ #burger div:nth-child(2) {
-    transform: translateX(-600px);
-    opacity: 0;
-}
-
-#cb:checked ~ #burger-frontpage div:first-child {
-    transform: translateY(11px) rotate(45deg);
-}
-
-#cb:checked ~ #burger-frontpage div:last-child {
-    transform: translateY(-11px) rotate(-45deg);
-}
-
-#cb:checked ~ #burger-frontpage div:nth-child(2) {
+#cb:checked ~ #burger div:nth-child(2), #cb:checked ~ #burger-frontpage div:nth-child(2) {
     transform: translateX(-600px);
     opacity: 0;
 }
 
 
 
-/*forstørrelsesglass*/
-
-#search-icon {
-    position: absolute;
-    top: 3.7vh;
-    right: 6em;
+/*SEARCH*/
+#search-icon-front, #search-icon {
     width: 32px;
     height: 32px;
-    
+    position: absolute;
 }
 
+#search-icon {
+    top: 3.7vh;
+    right: 6em;
+}
 
+#search-icon-front {
+    top: 6vh;
+    right: 9em;
+}
+
+#search-icon-front:hover, #search-icon:hover {
+    width: 35px;
+    height: 35px;
+}
 
 

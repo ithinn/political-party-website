@@ -1,3 +1,19 @@
+/*Koden er organisert slik:
+1. Fonter
+2. Overskrifter
+3. Generelle klasser
+4. Spesifikke overskrifter/id
+5. Bokser
+6. Buttons
+8. Navigasjon
+9. Sti
+10. Lister
+11. Ikoner
+10. Skjema*/
+
+
+
+/*FONTER*/
 @font-face {
     font-family: 'League Gothic';
     src: url("fonts/leauge-gothic/LeagueGothic-Regular.otf") format(truetype);
@@ -24,16 +40,13 @@
 }
 
 
-/*HEADINGS AND TEXT*/
-
-
+/*OVERSKRIFTER*/
 h2 {
     font-family: "Avenir Next LT Pro";
     font-weight: 500;
     font-size: 2rem;
     margin-top: 2em;
     margin-bottom: 1em;
-
 }
 
 h3 {
@@ -41,7 +54,6 @@ h3 {
     font-weight: 500;
     font-size: 1.3rem;
     margin-bottom: 1em;
-   
 }
 
 p {
@@ -54,13 +66,14 @@ a {
     text-decoration: none;
 }
 
+
+/*GENERELLE KLASSER*/
 .h1-backgroundcolor {
     font-family: "League Gothic";
     font-size: 5rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-    
 }
 
 .ingress {
@@ -71,7 +84,6 @@ a {
     font-weight: 700;
 }
 
-/*samferdsel*/
 .color-heading {
     font-family: "League Gothic";
     font-size: 5rem;
@@ -81,17 +93,6 @@ a {
     color: #66C9D8;
 }
 
-/*index, bli-med*/
-#slogan, .banner-heading {
-    font-family: "League Gothic", sans-serif;
-    font-size: 9rem;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-}
-
-/*politikere*/
 .h2-pol {
     font-size: 2rem;
     font-weight: 900;
@@ -103,12 +104,27 @@ a {
 
 .h3-pol {
     font-size: 1.8rem;
-    font-weight: 500;
-    
-   
+    font-weight: 500;   
 }
 
-/*index*/
+
+/*SPESIFIKKE OVERSKRIFTER/ID*/
+#slogan, .banner-heading {
+    font-family: "League Gothic", sans-serif;
+    font-size: 9rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#feedback-headings h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/*BOKSER*/
 .choice-heading-front{
     font-family: "The Hand";
     font-weight: 900;
@@ -116,7 +132,6 @@ a {
     text-align: left;
 }
 
-/*samferdsel*/
 #choice-heading-underpage {
     font-family: "The Hand";
     font-weight: 900;
@@ -125,37 +140,14 @@ a {
 }
 
 
-/*NAV*/
-
-/*index*/
-#nav-1, #nav-2, #nav-3, #nav-4 {
-    font-family: 'Avenir Next LT Pro';
-    font-size: 2rem;
-    font-weight: 700px;
-    color: #4f5151;
-}
-
-/*sub-pages*/
-#nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
-    font-family: 'Avenir Next LT Pro';
-    font-size: 2rem;
-    font-weight: 700px;
-    color: white;
-}
-
-
-
-/*BUTTONS*/
-/*buttons that are input[type=submit] is in "FORM"*/
-
-
+/*BUTTONS
+(buttons som er input[type=submit] ligger under "SKJEMAER")*/
 .standard-button {
     font-family: "League Gothic", "Avenir Next LT Pro", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-
 }
 
 #member-button, #donor-button {
@@ -163,9 +155,15 @@ a {
 }
 
 
+/*NAVIGASJON*/
+#nav-1, #nav-2, #nav-3, #nav-4, #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
+    font-family: 'Avenir Next LT Pro';
+    font-size: 2rem;
+    font-weight: 700px;
+}
+
 
 /*STI*/
-
 #sti a {
     font-family: "Avenir Next LT Pro";
     font-size: 1.5rem;
@@ -173,10 +171,7 @@ a {
 }
 
 
-
-/*LISTS*/
-
-/*samferdsel*/
+/*LISTER*/
 .check-li {
     font-size: 2rem;
     font-family: "Avenir Next LT Pro";
@@ -184,10 +179,7 @@ a {
 }
 
 
-
-
-
-/*ICONS*/
+/*IKONER*/
 .arrow-down figcaption {
     font-family: "Avenir Next LT Pro";
     font-size: 1.5rem;
@@ -212,16 +204,14 @@ a {
 }
 
 
-
-/*FORM*/
+/*SKJEMAER*/
 form, select, textarea, input[type=text], input[type=email], input[type="number"], input[type=date] {
     font-family: "Avenir Next LT Pro";
     font-size: 2rem;
     font-weight: 500;
 }
 
-
-input[type=submit], #header-underpage-input, #header-underpage-search-button, #front-input { 
+input[type=submit], #underpage-input, #underpage-search-button, #front-input { 
     font-family: "League Gothic";
     font-size: 2rem;
     letter-spacing: 3px;
@@ -232,16 +222,8 @@ input[type=submit], #header-underpage-input, #header-underpage-search-button, #f
     font-size: 4rem;
 }
 
-/*index*/
 #submit-front {
     font-size: 2.5rem;
 }
 
 
-/*
-#header-underpage-input {
-    font-family: "League Gothic";
-    font-size: 2rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}*/
