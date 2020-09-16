@@ -9,60 +9,53 @@
     <link rel="stylesheet" href="./style/typography.css">
     <link rel="stylesheet" href="style/header-and-nav.css">
     <link rel="stylesheet" href="./style/boxes-and-icons.css">
-    <link rel="stylesheet" href="style/samferdsel.css">
-    <link rel="stylesheet" href="style/politikere.css">
     <link rel="stylesheet" href="style/innspill.css">
     <link rel="stylesheet" href="style/responsive.css">
-    
 </head>
+
 <body>
-    <a name="top"></a>
-  <header id="underpage">
+    <header id="underpage">
       <div id="header-underpage-content">
-          <a href="index.html" alt="lenke til forsiden">
-              <img id="logo-underpage" src="./images/logo-negativ-02.png" alt="MDGs logo med grønn skrift på hvit bakgrunn">
-          </a> 
-          <nav class="main-nav-underpage">
-              <a href="samferdsel.html" id="nav-1-underpage">Hva mener vi?</a>
-              <a href="politikere.html" id="nav-2-underpage">Politikerne våre</a>
-              <a href="innspill.html" id="nav-3-underpage">Si hva du mener</a>
-              <a href="bli-med.html" id="nav-4-underpage">Bli med!</a>
-          </nav>
-
-          <div id="burger-wrapper">
-            <input type="checkbox" id="cb">
-        
-            <label id="burger" for="cb">
-                <div></div>
-                <div></div>
-                <div></div>
-            </label>
-                
-            <nav id="menu">
-                <a href="./samferdsel.html">Hva mener vi?</a>
-                <a href="./politikere.html">Politikerne våre</a>
-                <a href="./innspill.html">Si hva du mener</a>
-                <a href="./bli-med.html">Bli med</a>            
-                <a href="./bli-med.html">Kontakt</a>            
-                        
+            <a href="index.html" alt="lenke til forsiden">
+                <img id="logo-underpage" src="./images/logo-negativ-02.png" alt="MDGs logo med grønn skrift på hvit bakgrunn"></a> 
+          
+            <nav class="main-nav-underpage">
+                <a href="samferdsel.html" id="nav-1-underpage">Hva mener vi?</a>
+                <a href="politikere.html" id="nav-2-underpage">Politikerne våre</a>
+                <a href="innspill.html" id="nav-3-underpage">Si hva du mener</a>
+                <a href="bli-med.html" id="nav-4-underpage">Bli med!</a>
             </nav>
-          </div>
 
-          <!--
-          <img id="menu-icon" class="icons" src="./images/menu-icon.png" alt="lenke til meny">-->
-          <img id="search-icon" class="icons" src="images/search-icon.png" alt="lenke til søk">
-      </div>
-  </header>
+            <div id="burger-wrapper">
+                <input type="checkbox" id="cb">
+                <label id="burger" for="cb">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+                
+                <nav id="menu">
+                    <a href="./samferdsel.html">Hva mener vi?</a>
+                    <a href="./politikere.html">Politikerne våre</a>
+                    <a href="./innspill.html">Si hva du mener</a>
+                    <a href="./bli-med.html">Bli med</a>            
+                    <a href="./bli-med.html">Kontakt</a>                   
+                </nav>
+            </div>
 
-  <section id="sti">
-      <a href="index.html">Forside</a>
-      <h4>/</h4>
-      <a href="innspill.html">Si hva du mener</a>
-      <h4>/</h4>
-  </section>
+            <img id="search-icon" class="icons" src="images/search-icon.png" alt="Lenke til søkefunksjonen på dette nettstedet">
+        </div>
+    </header>
 
-  <main>
-    <section id="background-feedback"></section>
+    <section id="sti">
+        <a href="index.html">Forside</a>
+        <h4>/</h4>
+        <a href="innspill.html">Si hva du mener</a>
+        <h4>/</h4>
+    </section>
+
+    <main>
+        <section id="background-feedback"></section>
 
         <div id="feedback-container">
             <section id="headings">
@@ -72,50 +65,40 @@
 
             <section id="form-section">
                 <form id="feedback" method="POST" action="http://server1">
-        
                     <label id="label-name" for="name">Fullt navn: </label>
                     <input id="name" type="text" name="name" required >
-           
-
                     <label id="label-mail" for="mail">Epost: </label>
                     <input id="mail" type="email" name="mail" required>
       
-            
-            <label id="label-org" for="org-select">Organisasjon/tilhørighet</label>
-            <select id="org-select" name="organization">
-                <option value="private">Privatperson</option>
-                <option value="pupil">Skoleelev</option>
-                <option value="member">Medlem i MDG</option>
-                <option value="NGO">NGO</option>
-                <option value="business">Næringsliv</option>
-                <option value="academic">Forsker</option>
-                <option value="other">Annet</option>
-            </select>
-           
+                    <label id="label-org" for="org-select">Organisasjon/tilhørighet</label>
+                    <select id="org-select" name="organization">
+                        <option value="private">Privatperson</option>
+                        <option value="pupil">Skoleelev</option>
+                        <option value="member">Medlem i MDG</option>
+                        <option value="NGO">NGO</option>
+                        <option value="business">Næringsliv</option>
+                        <option value="academic">Forsker</option>
+                        <option value="other">Annet</option>
+                    </select>
 
-
-            <label id="label-who" for="to-select">Hvem vil du si noe til?</label>
-            <select id="to-select" name="person">
-                <option value="leader">Partiledelsen</option>
-                <option value="une">Une Bastholm</option>
-                <option value="lan">Lan Marie Berg</option>
-                <option value="une">Arild Hermstad</option>
-                <option value="office">Partikontoret</option>
-                <option value="communication">Kommunikasjonsavdelingen</option>
-                <option value="whoever">Annet</option>
-                
-            </select>
+                    <label id="label-who" for="to-select">Hvem vil du si noe til?</label>
+                    <select id="to-select" name="person">
+                        <option value="leader">Partiledelsen</option>
+                        <option value="une">Une Bastholm</option>
+                        <option value="lan">Lan Marie Berg</option>
+                        <option value="une">Arild Hermstad</option>
+                        <option value="office">Partikontoret</option>
+                        <option value="communication">Kommunikasjonsavdelingen</option>
+                        <option value="whoever">Annet</option>
+                    </select>
           
-            
-            <textarea  rows="10" cols="100" name="comments" required>Skriv det du vil si her: </textarea>
+                    <textarea  rows="10" cols="100" name="comments" required>Skriv det du vil si her: </textarea>
 
-            <input id="submit" type="submit" value="Send inn">
-        </form>
-      </section>
-      </div>
+                    <input id="submit" type="submit" value="Send inn">
+                </form>
+            </section>
+        </div>
   </main>
-
-  
 </body>
 </html>
 

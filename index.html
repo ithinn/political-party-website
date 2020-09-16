@@ -11,79 +11,63 @@
     <link rel="stylesheet" href="./style/boxes-and-icons.css">
     <link rel="stylesheet" href="style/responsive.css">
     <script src="script/main.js" type="text/javascript"></script>
-    
 </head>
+
 <body>
-<header id="frontpage">
-    <div id="header-frontpage-content">
-        <img id="logo-frontpage" src="./images/logo-negativ-02.png" alt="MDGs logo med grønn skrift på hvit bakgrunn">
-        <h1 id="slogan" >Vi er fremtiden</h1>
-        <div id="burger-wrapper">
-            <input type="checkbox" id="cb">
+    <header id="frontpage">
+        <div id="header-frontpage-content">
+            <img id="logo-frontpage" src="./images/logo-negativ-02.png" alt="MDGs logo med grønn skrift på hvit bakgrunn">
+            <h1 id="slogan" >Vi er fremtiden!</h1>
         
-            <label id="burger-front" for="cb">
-                <div></div>
-                <div></div>
-                <div></div>
-            </label>
-                
-            <nav id="menu">
-                <a href="./samferdsel.html">Hva mener vi?</a>
-                <a href="./politikere.html">Politikerne våre</a>
-                <a href="./innspill.html">Si hva du mener</a>
-                <a href="./bli-med.html">Bli med</a>            
-                <a href="./bli-med.html">Kontakt</a>            
-                        
-            </nav>
-          </div>
-        <img id="search-front" class="icons" src="images/search-icon.png" alt="lenke til søk">
-    </div>
-</header>
+            <div id="burger-wrapper">
+                <input type="checkbox" id="cb">
+                <label id="burger-front" for="cb">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+             
+                <nav id="menu">
+                    <a href="./samferdsel.html">Hva mener vi?</a>
+                    <a href="./politikere.html">Politikerne våre</a>
+                    <a href="./innspill.html">Si hva du mener</a>
+                    <a href="./bli-med.html">Bli med</a>            
+                    <a href="./bli-med.html">Kontakt</a>                      
+                </nav>
+            </div>   
+            
+            <img id="search-front" class="icons" src="images/search-icon.png" alt="lenke til søk">
+        </div>
+    </header>
 
-
-
-<main>
-    <div class="main-grid">
+    <main>
+        <div class="main-grid">
     
-    <section id="main-nav">
-            <a id="nav-1" href="./samferdsel.html">Hva mener vi?</a>
-            <a id="nav-2" href="politikere.html">Politikerne våre</a>
-            <a id="nav-3" href="innspill.html">Si hva du mener</a>
-            <a id="nav-4" href="bli-med.html">Bli med!</a>
-    </section>
+            <section id="main-nav">
+                <a id="nav-1" href="./samferdsel.html">Hva mener vi?</a>
+                <a id="nav-2" href="politikere.html">Politikerne våre</a>
+                <a id="nav-3" href="innspill.html">Si hva du mener</a>
+                <a id="nav-4" href="bli-med.html">Bli med!</a>
+            </section>
 
     
    
-    <section id="main-content">
+            <section id="main-content">
 
-        <article class="choice-box-front">
-            <h1 class="search-heading-front">Hva mener vi om?</h1>
-            <form id="front-form" method="POST" action="article1-samferdsel.html">
-
-
-                <input id="front-input" list="topics">
-                <datalist id="topics">
-                    <option value=Samferdsel>
-                       
-                    </option>
-                    <option value="Helse"></option>
-                    <option value="Utdanning">
-                       
-                    </option>
-                    <option value="Flyktning og asyl"></option>
-                    <option value="Olje og energi"></option>
-                    <option value="Natur og dyr"></option>
-                    <option value="Landbruk"></option>
-                </datalist>
-                <input class="standard-button" id="search" type="submit" value="Søk">
-
-
-            </form>
-        </article>
-    </section>
-    </div>
-</div>    
-</main>
+                <article class="choice-box-front">
+                    <h1 class="search-heading-front">Hva mener vi om?</h1>
+                    <form id="front-form" method="POST" action="article1-samferdsel.html">
+                        <input id="front-input" list="topics">
+                        <datalist id="topics">
+                            <option data-value="/innspill.html" value="Gå til innspill"></option>
+                            <option data-value="/politikere.html" value="Gå til politikere"></option>
+                        </datalist>
+                        <input class="standard-button" id="search" type="submit" value="Søk">
+                    </form>
+                </article>
+            </section>
+        </div>
+    </main>
     
 </body>
 </html>

@@ -48,6 +48,10 @@ footer {
     font-weight: 700;
 }
 
+.color-heading {
+    color: #66C9D8;
+}
+
 #form-section {
     width: 100%;
     height: fit-content;
