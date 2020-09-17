@@ -265,13 +265,21 @@
 
     #banner-politics {
         height: 100vh;
+        align-items: space-around;
     }
 
-
+    #heading-politics {
+        top: -40vh;
+        width: 60%;
+        height: 12vh;
+        position: relative;
+        
+    }
+    
     #topic-boxes {
-        top: -70vh;
+        top: -60vh;
         width: 80%;
-        height: 150vh;
+        height: 70vh;
     }
 
     .topic-box:hover {
@@ -286,10 +294,10 @@
 
 
 @media (max-width: 699px) {
-    
+    /*
     main {
         background-color: red;
-    }
+    }*/
 
      /*NAV*/
     .main-nav-underpage {
@@ -415,18 +423,17 @@
         align-self: end;
     }
 
-    #topic-boxes {
-    width: 50%;
-    height: 280vh;
-    top: -90vh;
-    }
-
     #banner-politics {
         top: 0;
     }
 
+    #topic-boxes {
+        width: 50%;
+        height: 100vh;
+        top: -70vh;
+    }
    
-
+    
   
     /*BLI MED*/
     .banner-heading {

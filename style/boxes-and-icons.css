@@ -46,8 +46,9 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 5em;
-    min-height: 10em;
+    min-height: 15em;
     padding: 2em;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
 }
     
 #choice-heading-underpage {
