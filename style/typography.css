@@ -20,14 +20,15 @@
 }
 
 @font-face {
-    font-family: 'Avenir Next LT Pro Demi';
-    src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Regular1.ttf") format("ttf");
+    font-family: 'Avenir Next LT Pro Regular';
+    src: url("../fonts/avenir-next-LT-Pro/Avenir-Next-LT-Pro-Demi_5188.ttf") format("ttf");
 }
 
+/*
 @font-face {
     font-family: 'Avenir Next LT Pro Bold';
     src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Bold.otf") format("otf");
-}
+}*/
 
 @font-face {
     font-family: 'The Hand';
