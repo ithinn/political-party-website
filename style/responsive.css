@@ -38,10 +38,10 @@
 
 
 @media (max-width: 1148px) {
-
+    /*
     main {
         background-color: gray;
-    }
+    }*/
 
     /*NAV*/
     .main-nav-underpage {
@@ -129,10 +129,10 @@
 
 
 @media (max-width: 882px) {
-    
+   /* 
     main {
         background-color: blue;
-    }
+    }*/
    
      /*NAV*/
     #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
