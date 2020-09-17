@@ -24,15 +24,15 @@
     src: url("../fonts/avenir-next-LT-Pro/Avenir-Next-LT-Pro-Demi_5188.ttf") format("ttf");
 }
 
-/*
+
 @font-face {
     font-family: 'Avenir Next LT Pro Bold';
     src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Bold.otf") format("otf");
-}*/
+}
 
 @font-face {
     font-family: 'The Hand';
-    src: url("../fonts/the-hand/TheHandXtraBlk.ttf") format("ttf");
+    src: url("../fonts/the-hand/TheHandXtraBlk.ttf") format("truetype");
 }
 
 @font-face {
