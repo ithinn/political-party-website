@@ -49,8 +49,21 @@ section {
 }
 
 #img-byer {
-    background-image: url("../images/bysykkel.jpg")
+    background-image: url("../images/bysykkel.jpg");
 }
+
+#img-natur {
+    background-image: url("../images/barn-natur.jpg");
+}
+
+#img-hav {
+    background-image: url("../images/lofoten.png");
+}
+
+#img-klima {
+    background-image: url("../images/earth.jpg");
+}
+
 
 /*Kulepunktteksten*/
 .bullet-points {
@@ -113,6 +126,21 @@ margin: 2vh auto;
 #img-elaborate-byer {
     background-image: url("../images/urban-forest.jpg");
 }
+
+#img-elaborate-natur {
+    background-image: url("../images/ender.jpg");
+}
+
+#img-elaborate-hav {
+    background-image: url("../images/fiskeri.jpg");
+    background-position: bottom;
+}
+
+#img-elaborate-klima {
+    background-image: url("../images/solcellepanel1.jpg");
+    
+}
+
 
 
 /*Artikkelteksten*/

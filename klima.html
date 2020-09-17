@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Samferdsel</title>
+        <title>Klima</title>
         <link rel="stylesheet" href="./style/main.css">
         <link rel="stylesheet" href="./style/index.css">
         <link rel="stylesheet" href="./style/typography.css">
@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./style/boxes-and-icons.css">
         <link rel="stylesheet" href="style/samferdsel.css">
         <link rel="stylesheet" href="style/responsive.css">
+        <script src="script/small-choice-box.js"></script>
     </head>
 
     <body>
@@ -23,7 +24,7 @@
                 </a> 
 
                 <nav class="main-nav-underpage">
-                    <a href="samferdsel.html" id="nav-1-underpage">Hva mener MDG?</a>
+                    <a href="hva-mener-mdg.html" id="nav-1-underpage">Hva mener MDG?</a>
                     <a href="politikere.html" id="nav-2-underpage">Politikerne våre</a>
                     <a href="innspill.html" id="nav-3-underpage">Si hva du mener</a>
                     <a href="bli-med.html" id="nav-4-underpage">Bli med!</a>
@@ -38,7 +39,7 @@
                     </label>
                     
                     <nav id="dropdown-menu">
-                        <a href="./samferdsel.html">Hva mener MDG?</a>
+                        <a href="hva-mener-mdg.html">Hva mener MDG?</a>
                         <a href="./politikere.html">Politikerne våre</a>
                         <a href="./innspill.html">Si hva du mener</a>
                         <a href="./bli-med.html">Bli med</a>            
@@ -53,12 +54,12 @@
         <section id="sti">
             <a href="index.html">Forside</a>
             <h4>/</h4>
-            <a href="index.html">Hva mener MDG?</a>
+            <a href="hva-mener-mdg.html">Hva mener MDG?</a>
             <h4>/</h4>
         </section>
 
         <section id="section1-basic">
-            <article class="background-image-topic">
+            <article class="background-image" id="img-klima">
             </article>
 
             <article class="choice-box-underpage"> 
@@ -66,24 +67,22 @@
                 <form id="underpage-form" method="POST" action="./page2.html">
                     <input id="underpage-input" list="topics">
                     <datalist id="topics">
-                        <option value="Samferdsel"></option>
-                        <option value="Helse"></option>
-                        <option value="Utdanning"></option>
-                        <option value="Flyktning og asyl"></option>
-                        <option value="Olje og energi"></option>
-                        <option value="Natur og dyr"></option>
-                        <option value="Landbruk"></option>
+                        <option data-value="/samferdsel.html" value="Samferdsel"></option>
+                        <option data-value="/byer.html" value="Byer"></option>
+                        <option data-value="/klima.html" value="Klima"></option>
+                        <option dat-value="/natur.html" value="Natur og dyr"></option>
+                        <option data-value="/hav.html" value="Hav"></option>
                     </datalist>
                     <input id="submit-underpage" type="submit" value="Søk">
                 </form>
             </article>
 
             <article class="bullet-points">
-                <h1 class="color-heading">Samferdsel</h1>
+                <h1 class="color-heading">Klima</h1>
                 <ul class="check-ul">
-                    <li class="check-li">Vi vil ha hurtigtog mellom Oslo og Bergen</li>
-                    <li class="check-li">Vi vil stanse nye veiutbyggingsprosjekter</li>
-                    <li class="check-li">Vi vil ha gratis kollektivtransport i alle de store byene</li>
+                    <li class="check-li">Norge skal bli utslippsfritt innen 2030</li>
+                    <li class="check-li">Vi vil stanse all oljeleting i Arktis og Barentshavet</li>
+                    <li class="check-li">Vi vil ta ansvar for Norges rolle i internasjonale klimagassutslipp</li>
                 </ul>
             </article>
 
@@ -95,7 +94,7 @@
         </section>
     
         <section id="section2-elaborate">
-            <div id="background-img-elaborate"></div>
+            <div class="background-img-elaborate" id="img-elaborate-klima"></div>
         
             <div id="text-wrapper">
                 <figure class="arrow-up">
@@ -105,19 +104,19 @@
                     <figcaption>Les mindre</figcaption>
                 </figure>
         
-                <h1 class="color-heading article-heading" >Samferdsel</h1>
+                <h1 class="color-heading article-heading" >Klima</h1>
 
     
                 <article id="article-text">
-                    <h2 class="ingress">Samferdsel er viktig fordi det er viktig og vi må sykle  mer og kjøre mindre bil og fly, og det beste er om vi bygger tog.</h5>
+                    <h2 class="ingress">Det haster å stanse klimaendringene. Vi vil at politikerne skal tørre å ta valgene som sikrer fremtiden for våre barn og barnebarn.</h2>
         
-                    <h2>Grønn transport</h2>
+                    <h2>Vi må kutte klimagassutslipp</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi risus, suscipit sed porttitor ac, laoreet sed lacus. Ut tincidunt lobortis arcu eget faucibus. Proin odio nisi, ultricies eu tempus sed, elementum eu arcu. Phasellus vitae leo tortor. Maecenas nisi mi, cursus vel enim quis, euismod porttitor ante.  </p>
 
-                    <h2>Vi må tenke klima hele veien</h2>
+                    <h2>Norge etter olja - det kommer til å bli så bra!</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi risus, suscipit sed porttitor ac, laoreet sed lacus. Ut tincidunt lobortis arcu eget faucibus. Proin odio nisi, ultricies eu tempus sed, elementum eu arcu. Phasellus vitae leo tortor. Maecenas nisi mi, cursus vel enim quis, euismod porttitor ante. Nulla maximus tincidunt vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 
-                    <h2>Vi må sykle mer</h2>
+                    <h2>Vi må gå foran som et godt eksempel internasjonalt - vi kan ikke vente.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi risus, suscipit sed porttitor ac, laoreet sed lacus. Ut tincidunt lobortis arcu eget faucibus. Proin odio nisi, ultricies eu tempus sed, elementum eu arcu. Phasellus vitae leo tortor. Maecenas nisi mi, cursus vel enim quis, euismod porttitor ante. Nulla maximus tincidunt vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
 
                     <a href="./linked-files/Partiprogram MDG 2020.pdf" target="_blank" alt="Last ned partiprogrammet som PDF"> 

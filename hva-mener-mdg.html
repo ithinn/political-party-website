@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hva mener MDG?</title>
+        <link rel="stylesheet" href="./style/main.css">
+        <link rel="stylesheet" href="./style/index.css">
+        <link rel="stylesheet" href="./style/typography.css">
+        <link rel="stylesheet" href="style/header-and-nav.css">
+        <link rel="stylesheet" href="./style/boxes-and-icons.css">
+        <link rel="stylesheet" href="./style/hva-mener-mdg.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <script src="script/small-choice-box.js"></script>
+    </head>
+
+    <body>
+        <a name="top"></a>
+
+        <header id="header-underpage">
+            <div id="header-underpage-content">
+                <a href="index.html" alt="lenke til forsiden">
+                    <img id="logo-underpage" src="./images/logo-negativ-02.png" alt="MDGs logo med grønn skrift på hvit bakgrunn">
+                </a> 
+
+                <nav class="main-nav-underpage">
+                    <a href="hva-mener-mdg.html" id="nav-1-underpage">Hva mener MDG?</a>
+                    <a href="politikere.html" id="nav-2-underpage">Politikerne våre</a>
+                    <a href="innspill.html" id="nav-3-underpage">Si hva du mener</a>
+                    <a href="bli-med.html" id="nav-4-underpage">Bli med!</a>
+                </nav>
+
+                <div id="burger-wrapper">
+                    <input type="checkbox" id="cb">
+                    <label id="burger" for="cb">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </label>
+                    
+                    <nav id="dropdown-menu">
+                        <a href="hva-mener-mdg.html">Hva mener MDG?</a>
+                        <a href="./politikere.html">Politikerne våre</a>
+                        <a href="./innspill.html">Si hva du mener</a>
+                        <a href="./bli-med.html">Bli med</a>            
+                        <a href="./bli-med.html">Kontakt</a>                      
+                    </nav>
+                </div>
+
+                <img id="search-icon" src="images/search-icon.png" alt="Lenke til internt søk">
+            </div>
+        </header>
+
+        <section id="sti">
+            <a href="index.html">Forside</a>
+            <h4>/</h4>
+            <a href="hva-mener-mdg.html">Hva mener MDG?</a>
+            <h4>/</h4>
+        </section>
+
+        <main>
+            <section id="banner-politics">
+                <h1 id="heading-politics" class="banner-heading">Politikken vår</h1>
+                <article class="choice-box-underpage"> 
+                    <h1 id="choice-heading-underpage">Hva mener MDG om...</h1>
+                    <form id="underpage-form" method="POST" action="./page2.html">
+                        <input id="underpage-input" list="topics">
+                        <datalist id="topics">
+                            <option data-value="/samferdsel.html" value="Samferdsel"></option>
+                            <option data-value="/byer.html" value="Byer"></option>
+                            <option data-value="/klima.html" value="Klima"></option>
+                            <option dat-value="/natur.html" value="Natur og dyr"></option>
+                            <option data-value="/hav.html" value="Hav"></option>
+                        </datalist>
+                        <input id="submit-underpage" type="submit" value="Søk">
+                    </form>
+                </article>
+            </section>
+
+            <section id="topic-boxes">
+                <a href="hav.html" alt="Lenke til artikkel om hav">  
+                <article class="topic-box" id="ocean">
+                    <h2 class="topic-heading">Hav og fiskeri</h2>
+                </article></a> 
+
+                <a href="klima.html" alt="Lenke til artikkel om klima"> 
+                <article class="topic-box" id="climate">
+                    <h2 class="topic-heading">Klima</h2>
+                </article></a>
+
+                <a href="byer.html" alt="Lenke til artikkel om byer"> 
+                <article class="topic-box" id="cities">
+                    <h2 class="topic-heading">Bærekraftige byer</h2>
+                </article></a>
+
+                <a href="natur.html" alt="Lenke til artikkel om natur"> 
+                <article class="topic-box" id="nature">
+                    <h2 class="topic-heading">Natur og dyr</h2>
+                </article></a>
+
+                <article class="topic-box" id="education">
+                    <h2 class="topic-heading">Utdanning</h2>
+                </article>
+                <article class="topic-box" id="transport">
+                    <h2 class="topic-heading">Samferdsel</h2>
+                </article>
+                <article class="topic-box" id="social">
+                    <h2 class="topic-heading">Velferd</h2>
+                </article>
+                <article class="topic-box" id="health">
+                    <h2 class="topic-heading">Helse</h2>
+                </article>
+            </section>
+
+            
+        </main>
+    </body>
+</html>

@@ -93,6 +93,15 @@ a {
     color: #66C9D8;
 }
 
+.topic-heading {
+    font-family: "League Gothic";
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
 .h2-pol {
     font-size: 2rem;
     font-weight: 900;
@@ -225,5 +234,4 @@ input[type=submit], #underpage-input, #underpage-search-button, #front-input {
 #submit-front {
     font-size: 2.5rem;
 }
-
 

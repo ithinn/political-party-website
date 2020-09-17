@@ -1,0 +1,76 @@
+
+
+#banner-politics {
+    width: 100%;
+    height: 70vh;
+    background-image: url("../images/voting-une.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-heading {
+    background-color: #66C9D8;
+    
+    margin: 0 auto;
+    position: relative;
+    
+    padding: .2em;
+}
+
+#heading-politics {
+    top: 30%;
+    width: 60%;
+}
+
+.choice-box-underpage {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+    height: 10em;
+}
+
+#topic-boxes {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+    margin: 2em auto;
+    
+}
+
+.topic-box {
+    width: 30em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+#ocean, #education {
+    background-image: url("../images/graphics/ocean.png");
+    background-position: center;
+}
+#climate, #social {
+    background-image: url("../images/graphics/ice.png");
+    background-position: center left;
+}
+#cities, #transport {
+    background-image: url("../images/graphics/cities.png");
+    background-position: 80%;
+}
+#nature, #health {
+    background-image: url("../images/graphics/animal.png");
+    background-position: center;
+}
+
+
+
+
+
