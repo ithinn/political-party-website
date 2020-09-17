@@ -20,14 +20,13 @@
 }
 
 @font-face {
-    font-family: 'Avenir Next LT Pro Regular';
-    src: url("../fonts/avenir-next-LT-Pro/Avenir-Next-LT-Pro-Demi_5188.ttf") format("ttf");
+    font-family: 'Avenir Next LT Pro Demi';
+    src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Demi.otf") format("opentype");
 }
-
 
 @font-face {
     font-family: 'Avenir Next LT Pro Bold';
-    src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Bold.otf") format("otf");
+    src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Bold.otf") format(opentype);
 }
 
 @font-face {
@@ -37,7 +36,7 @@
 
 @font-face {
     font-family: 'Adobe Caslon Pro ';
-    src: url("../fonts/a-Caslon-Pro/Adobe\ Caslon\ Pro\ Regular.ttf") format("ttf");
+    src: url("../fonts/a-Caslon-Pro/ACaslonPro-Regular.otf") format(opentype);
 }
 
 
