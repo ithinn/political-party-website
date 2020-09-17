@@ -16,7 +16,7 @@
 /*FONTER*/
 @font-face {
     font-family: 'League Gothic';
-    src: url("../fonts/leauge-gothic/league-gothic.regular.ttf") format(truetype);
+    src: url("../fonts/leauge-gothic/league-gothic.regular.ttf") format("truetype");
 }
 
 @font-face {
