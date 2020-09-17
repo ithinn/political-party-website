@@ -19,15 +19,7 @@
     src: url("../fonts/leauge-gothic/league-gothic.regular.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: 'Lato Demi';
-    src: url("../fonts/avenir-next-LT-Pro/Avenir-Next-LT-Pro-Demi.woff") format("woff");
-}
-/*
-@font-face {
-    font-family: 'Lato Bold';
-    src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Bold.otf") format(opentype);
-}*/
+
 
 @font-face {
     font-family: 'The Hand';
