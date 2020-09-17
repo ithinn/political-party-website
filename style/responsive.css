@@ -105,12 +105,13 @@
         
     }
 
-       /*HVA MENER MDG*/
-       #topic-boxes {
+    /*HVA MENER MDG*/
+    #topic-boxes {
         width: 90%;
         height: 130vh;
-}
+    }
 
+    
     
 }
 
@@ -151,7 +152,7 @@
     .banner-heading {
         width: 90%;
         font-size: 6rem;
-        top: 64%;
+        top: 40%;
     }
 
     #banner-join {
@@ -160,7 +161,7 @@
 
     #join-us-section {
         margin-top: 5em;
-        top: -20vh;
+        top: -40vh;
     }
 
     #membership-join {
@@ -262,13 +263,26 @@
         width: 80%;
     }
 
-    /*HVA MENER MDG*/
+    #banner-politics {
+        height: 100vh;
+    }
+
+
     #topic-boxes {
-        width: 90%;
+        top: -70vh;
+        width: 80%;
         height: 150vh;
-}
+    }
+
+    .topic-box:hover {
+        width: 32em;
+        height: 21em;
+        border: 6px solid white;
+    }
 
 
+
+   
 
 
 @media (max-width: 699px) {
@@ -401,18 +415,24 @@
         align-self: end;
     }
 
-    /*HVA MENER MDG*/
     #topic-boxes {
-    width: 100%;
+    width: 50%;
     height: 280vh;
+    top: -90vh;
     }
+
+    #banner-politics {
+        top: 0;
+    }
+
+   
 
   
     /*BLI MED*/
     .banner-heading {
         width: 90%;
         font-size: 6rem;
-        top: 25%;
+        top: 15%;
     }
 
     #banner-join {
@@ -421,11 +441,18 @@
 
     #join-us-section {
         margin-top: 5em;
-        top: -40vh;
+        top: -45vh;
         background-color: white;
+        width: 100%;
     }
 
     #membership-join, #donor-join {
         width: 100%;
+    }
+
+    .join-form {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2em;
     }
 }

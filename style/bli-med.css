@@ -51,6 +51,9 @@ article {
 
 
 /*SKJEMAER*/
+.join-form {
+    margin-top: 2em;
+}
 
 input[type=radio] {
     width: 1px;
@@ -75,4 +78,8 @@ input[type=radio]:focus + label {
 
 .radio-label {
     margin-top: .2em;
+}
+
+input[type=submit] {
+    width: 100%;
 }

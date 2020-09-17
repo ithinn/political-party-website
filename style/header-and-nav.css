@@ -134,6 +134,7 @@
 
 #cb {
     position: absolute;
+    display: none;
 }
 
 #burger, #burger-frontpage {
@@ -188,11 +189,11 @@
 }
 
 #cb:checked ~ #burger div:first-child, #cb:checked ~ #burger-frontpage div:first-child  {
-    transform: translateY(11px) rotate(45deg);
+    transform: translateY(14px) rotate(45deg);
 }
 
 #cb:checked ~ #burger div:last-child, #cb:checked ~ #burger-frontpage div:last-child {
-    transform: translateY(-11px) rotate(-45deg);
+    transform: translateY(-14px) rotate(-45deg);
 }
 
 #cb:checked ~ #burger div:nth-child(2), #cb:checked ~ #burger-frontpage div:nth-child(2) {
