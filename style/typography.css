@@ -20,14 +20,14 @@
 }
 
 @font-face {
-    font-family: 'Avenir Next LT Pro Demi';
+    font-family: 'Lato Demi';
     src: url("../fonts/avenir-next-LT-Pro/Avenir-Next-LT-Pro-Demi.woff") format("woff");
 }
-
+/*
 @font-face {
-    font-family: 'Avenir Next LT Pro Bold';
+    font-family: 'Lato Bold';
     src: url("../fonts/avenir-next-LT-Pro/AvenirNextLTPro-Bold.otf") format(opentype);
-}
+}*/
 
 @font-face {
     font-family: 'The Hand';
@@ -42,7 +42,7 @@
 
 /*OVERSKRIFTER*/
 h2 {
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-weight: 500;
     font-size: 2rem;
     margin-top: 2em;
@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-weight: 500;
     font-size: 1.3rem;
     margin-bottom: 1em;
@@ -161,7 +161,7 @@ li {
 /*BUTTONS
 (buttons som er input[type=submit] ligger under "SKJEMAER")*/
 .standard-button {
-    font-family: "League Gothic", "Avenir Next LT Pro", sans-serif;
+    font-family: "League Gothic", "Lato", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -175,7 +175,7 @@ li {
 
 /*NAVIGASJON*/
 #nav-1, #nav-2, #nav-3, #nav-4, #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
-    font-family: 'Avenir Next LT Pro';
+    font-family: 'Lato';
     font-size: 2rem;
     font-weight: 700px;
 }
@@ -183,7 +183,7 @@ li {
 
 /*STI*/
 #sti a {
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -192,21 +192,21 @@ li {
 /*LISTER*/
 .check-li {
     font-size: 2rem;
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-weight: 500;
 }
 
 
 /*IKONER*/
 .arrow-down figcaption {
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-size: 1.5rem;
     font-weight: 900;
     text-align: center;
 }
 
 .arrow-up figcaption {
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-size: 1.5rem;
     font-weight: 900;
     text-align: center;
@@ -214,7 +214,7 @@ li {
 
 /*burger*/
 #dropdown-menu a {
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-size: 2rem;
     text-decoration: none;
     color: white;
@@ -224,7 +224,7 @@ li {
 
 /*SKJEMAER*/
 form, select, textarea, input[type=text], input[type=email], input[type="number"], input[type=date] {
-    font-family: "Avenir Next LT Pro";
+    font-family: "Lato";
     font-size: 2rem;
     font-weight: 500;
 }
