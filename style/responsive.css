@@ -251,7 +251,7 @@
         align-self: end;
         grid-column: 4 /span 6;
         justify-self: center;
-        display:none;
+        display: none;
     }
 
     #text-wrapper {
@@ -260,9 +260,23 @@
         
     }
 
+    #section2-elaborate {
+        top: 8vh;
+    }
+
     #article-text {
         width: 80%;
+        position: relative;
+        top: -23em;
     }
+
+    .article-heading {
+        margin: .5em auto;
+        position: relative;
+        top: -7em;
+        background-color: white;
+        padding: .3em;
+    }   
 
     #banner-politics {
         height: 100vh;

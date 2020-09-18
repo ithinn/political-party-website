@@ -73,6 +73,9 @@
     grid-column: 10 / span 3;
 }
 
+#main-nav a {
+    color: #4f5151;
+}
 #main-nav a:hover {
     color: #6a9325;
 }
