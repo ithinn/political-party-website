@@ -1,7 +1,7 @@
 /*Koden er organisert etter @media-queries:
 
-1. max-width: 1340px (gul)
-2. max-width: 1148px (grå)
+1. max-width: 1340px 
+2. max-width: 1148px 
 3. max-width: 950px
 4. max-width: 882px
 5. max-width: 699px
@@ -9,11 +9,6 @@
 */
 
 @media (max-width: 1340px) {
-    
-    /*main {
-        background-color: yellow;
-    }*/
-
     /*BLI MED*/
     #join-us-section {
         margin-top: 15em;
@@ -38,11 +33,6 @@
 
 
 @media (max-width: 1148px) {
-    /*
-    main {
-        background-color: gray;
-    }*/
-
     /*NAV*/
     .main-nav-underpage {
         padding-left: .5em;
@@ -110,11 +100,7 @@
         width: 90%;
         height: 50vh;
     }
-
-    
-    
 }
-
 
 
 
@@ -126,15 +112,8 @@
  
 
 
-
-
 @media (max-width: 882px) {
-   /* 
-    main {
-        background-color: blue;
-    }*/
-   
-     /*NAV*/
+    /*NAV*/
     #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
         padding: 1em 1em 1em 0;
     }
@@ -288,7 +267,6 @@
         width: 60%;
         height: 12vh;
         position: relative;
-        
     }
     
     #topic-boxes {
@@ -303,18 +281,10 @@
         border: 6px solid white;
     }
 
-
-
-   
-
+}
 
 @media (max-width: 699px) {
-    /*
-    main {
-        background-color: red;
-    }*/
-
-     /*NAV*/
+    /*NAV*/
     .main-nav-underpage {
         display: none;
     }
@@ -350,7 +320,8 @@
         display: none;
     }
 
-     /*FORSIDEN*/
+
+    /*FORSIDEN*/
      #slogan, #search-icon-front {
         display: none;
     }
@@ -379,16 +350,19 @@
         position: relative;
     }
 
+
     /*MAIN*/
     #sti {
        display: none;
     }
+
 
     /*POLITIKERE*/
 
     #section-video {
         top: 0;
     }
+
     #animated-h1 {
         font-size: 4rem;
         padding-top: .6em;
@@ -398,8 +372,9 @@
         margin-top: -2em;
     }
      
-     /*INNSPILL*/
-     #feedback-form {
+
+    /*INNSPILL*/
+    #feedback-form {
         width: 90%;
     }
 
@@ -413,7 +388,7 @@
     }
 
     /*HVA MENER MDG?*/
-    #section1-basic{
+    #section1-basic {
         top: 0;
         height: 76vh;
     }
@@ -430,6 +405,7 @@
         padding: 1em;
         margin: .5em auto;
     }
+
     .check-li {
         font-size: 1.7rem;
     }
@@ -452,7 +428,6 @@
         height: 100vh;
         top: -70vh;
     }
-   
     
   
     /*BLI MED*/
