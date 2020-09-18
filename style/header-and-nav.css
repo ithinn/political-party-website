@@ -182,11 +182,6 @@
     display: none;    
 }
 
-#dropdown-menu:checked {
-    display: grid;
-    left: 0;
-}
-
 #dropdown-menu a {
     text-decoration: none;
     color: white;
@@ -195,6 +190,7 @@
 
 #cb:checked ~ #dropdown-menu {
     left: 0;
+    display: grid;
 }
 
 #cb:checked ~ #burger div:first-child, #cb:checked ~ #burger-frontpage div:first-child  {
