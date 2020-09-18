@@ -6,6 +6,6 @@ window.onload = () => {
     let dataValue = document.querySelector('#topics option[value="' + optionValue + '"]').dataset.value;
 
     if(dataValue)    
-      window.location.href = "NEW-MDG/" + dataValue;
+      window.location.href = dataValue;
   });
 }

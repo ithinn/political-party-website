@@ -246,11 +246,12 @@
         background-color: white;   
     }
 
-    .arrow-down {
+    .arrow-down, .arrow-up {
         grid-row: 3;
         align-self: end;
         grid-column: 4 /span 6;
         justify-self: center;
+        display:none;
     }
 
     #text-wrapper {
