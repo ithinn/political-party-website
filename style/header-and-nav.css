@@ -178,7 +178,13 @@
     left: 100vw;
     top: 0;
     z-index: 1;
-    transition: 0.3s;    
+    transition: 0.3s;
+    display: none;    
+}
+
+#dropdown-menu:checked {
+    display: grid;
+    left: 0;
 }
 
 #dropdown-menu a {
