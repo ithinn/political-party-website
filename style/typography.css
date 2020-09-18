@@ -158,6 +158,10 @@ li {
     letter-spacing: 2px;
 }
 
+#submit-underpage {
+    font-size: 2rem;
+}
+
 #member-button, #donor-button {
     font-size: 3rem;
 }

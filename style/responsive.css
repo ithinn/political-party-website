@@ -427,6 +427,11 @@
         top: 0;
     }
 
+    #heading-politics {
+        height: 2.7em;
+        top: -30vh;
+    }
+
     #topic-boxes {
         width: 50%;
         height: 100vh;
