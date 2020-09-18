@@ -40,4 +40,8 @@ form {
     margin: 0 auto;
 }
 
+#submit {
+    width: 95%;
+    margin-top: 1em;
+}
 /*Stylingen til input og label m.m ligger i "boxes-and-icons"*/

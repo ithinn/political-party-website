@@ -158,7 +158,7 @@ li {
     letter-spacing: 2px;
 }
 
-#submit-underpage {
+#submit-underpage, #submit, #join-submit1, #join-submit2 {
     font-size: 2rem;
 }
 
