@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./style/boxes-and-icons.css">
         <link rel="stylesheet" href="style/innspill.css">
         <link rel="stylesheet" href="style/responsive.css">
+        <script src="./script/form.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
     </head>
 
@@ -64,13 +65,15 @@
                     <section id="feedback-headings">
                         <h1 class="color-heading">Har du innspill?</h1>
                         <h2 class="ingress">Vi vil gjerne høre din mening. Vi rekker ikke å svare alle, men lover at alle innspill blir lest.</h2>
+                        <p>Obligatoriske felter er merket med *</p>
                     </section>
 
                     <section id="feedback-form-section">
                         <form id="feedback-form" method="POST" action="http://server1">
-                            <label id="label-name" for="name">Fullt navn: </label>
+                            <label id="label-name" for="name">Fullt navn *: </label>
+                            <p class="message" id="name-msg"></p>
                             <input id="name" type="text" name="name" required >
-                            <label id="label-mail" for="mail">Epost: </label>
+                            <label id="label-mail" for="mail">Epost *: </label>
                             <input id="mail" type="email" name="mail" required>
             
                             <label id="label-org" for="org-select">Organisasjon/tilhørighet</label>

@@ -9,3 +9,4 @@ window.onload = () => {
       window.location.href = dataValue;
   });
 }
+
