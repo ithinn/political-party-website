@@ -1,3 +1,5 @@
+
+
 window.onload = () => {
   document.querySelector('#submit-front').addEventListener('click', (e) => {
     e.preventDefault();
@@ -9,4 +11,20 @@ window.onload = () => {
       window.location.href = dataValue;
   });
 }
+
+const cb = document.getElementById("cb");
+const label = document.getElementById("burger-frontpage");
+
+
+const checkIt = (e) => {
+  console.log("dytt")
+  if (e.key === "Enter") {
+    console.log("skjerno")
+    console.log(cb.checked);    
+    !cb.checked ? cb.checked = true : cb.checked = false;
+  }
+}
+
+label.addEventListener("keydown", checkIt);
+
 

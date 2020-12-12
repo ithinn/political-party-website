@@ -91,6 +91,11 @@ li {
     
 }
 
+.artHeading {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
 .topic-heading {
     font-family: "League Gothic";
     font-size: 3rem;
