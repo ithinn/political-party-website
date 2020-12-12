@@ -21,8 +21,9 @@ main {
     height: fit-content;
     background-color:white;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     top: 55vh;
+    padding: 1em;
 }
 
 #feedback-headings {
