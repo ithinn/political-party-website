@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: 'Adobe Caslon Pro ';
-    src: url("../fonts/a-Caslon-Pro/ACaslonPro-Regular.otf") format(opentype);
+    src: url("../fonts/a-Caslon-Pro/ACaslonPro-Regular.otf") format("opentype");
 }
 
 
@@ -171,7 +171,7 @@ li {
 #nav-1, #nav-2, #nav-3, #nav-4, #nav-1-underpage, #nav-2-underpage, #nav-3-underpage, #nav-4-underpage {
     font-family: 'Lato';
     font-size: 2rem;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 

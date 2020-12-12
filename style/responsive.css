@@ -87,7 +87,7 @@
 
     /*POLITIKERE*/
     .featured-pol {
-        align-items: top;
+        align-items: flex-start;
     }
 
     .p-pol {
@@ -259,7 +259,7 @@
 
     #banner-politics {
         height: 100vh;
-        align-items: space-around;
+    
     }
 
     #heading-politics {

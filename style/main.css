@@ -16,33 +16,7 @@ body {
     max-height: 100%;
     color: #4f5151;
     overflow-x: hidden;
-}
-
-
-/*STI*/
-#sti {
     display: flex;
-    flex-direction: row;
-    padding: .08em .08em .08em 2em;
-    height: 5vh;
-    width: 100%;
-    align-items: center;
-    position: fixed;
-    top: 12vh;
-    background-color: white;
-    z-index: 1;
+    flex-direction: column;
 }
 
-#sti h4 {
-    padding-right: 1em;
-    margin-left: 2em;
-    color: #4f5151;
-}
-
-#sti a {
-    color: #4f5151;
-}
-
-#sti a:hover {
-    color: #6a9325;
-}
