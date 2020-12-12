@@ -88,7 +88,7 @@
 #header-underpage {
     width: 100%;
     height: auto;
-    background-color: #6a9325;
+    background-color: #5d811f;
     position: fixed;
     z-index: 99;
 }
@@ -147,11 +147,13 @@
 #sti h4 {
     padding-right: 1em;
     margin-left: 2em;
-    color: #4f5151;
+    color: #333333;
+    background: white
 }
 
 #sti a {
-    color: #4f5151;
+    color: #333333;
+    background: white;
 }
 
 #sti a:hover {
