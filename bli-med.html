@@ -18,7 +18,7 @@
         <!--HEADER OG NAV-->
         <header id="header-underpage">
             <div id="header-underpage-content">
-                <a href="index.html" alt="Lenke til forsiden">
+                <a href="index.html">
                     <img id="logo-underpage" src="./images/logo-negativ-02.png" alt="Lenke til forsiden. MDGs logo med grønn skrift på hvit bakgrunn"></a> 
                 
                 <nav class="main-nav-underpage">
@@ -55,9 +55,6 @@
             </div>
         </header>
 
-        
-        
-
         <main>
             <!--BAKGRUNNSBILDE OG OVERSKRIFT-->
             <section id="banner-join">
@@ -65,7 +62,7 @@
             </section>
 
             <!--INNMELDINGSSKJEMA OG DONORSKJEMA-->
-            <section id="join-us-section">
+            <section id="join-us-section" aria-label="Innmeldingsskjema og donorskjema">
                 <!--Bli medlem-->
                 <article id="membership-join">
                     <a href="#memb-list">
@@ -74,8 +71,6 @@
                         <h2 class="ingress">Som medlem kan du påvirke politikken vår, stille til valg og engasjere deg i arbeidet vårt.</h2>
                         <h2>Priser:</h2>
                         
-                        <a name="memb-list"></a>
-                        
                         <ul id="pricelist" class="ingress">
                             <li>Ordinært: 350,-</li>
                             <li>Student og honnør: 150,-</li>
@@ -83,7 +78,7 @@
                         </ul>
                     </div>
                     
-                    <form class="join-form" method="POST" action="">
+                    <form class="join-form" method="POST">
                         <label for="name">Navn</label>
                         <input type="text" name="name" id="name">
 
@@ -121,14 +116,14 @@
 
                 <!--Bli donor-->
                 <article id="donor-join">
-                    <a href="#donor">
+                    <a href="#donor"></a>
                     <button id="donor-button" class="standard-button">Bli fast giver</button> </a>
 
                     <h2 class="ingress">Som fast giver kan du bidra økonomisk til arbeidet vårt. <a name="donor"></a>Vi er et lite parti med små inntekter, og vi trenger alle bidrag vi kan få. <br> Fyll ut skjemaet, så tar vi kontakt.</h2>
 
                     <form class="join-form">
-                        <label  for="mail">Epost</label>
-                        <input type="email" name="mail" id="mail">
+                        <label  for="email">Epost</label>
+                        <input type="email" id="email">
                         <button class="standard-button" id="join-submit2" type="submit" value="Send inn">Send inn</button>
                     </form>
                 </article>
