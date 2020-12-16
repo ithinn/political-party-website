@@ -1,5 +1,3 @@
-
-
 const label_under = document.getElementById("burger");
 
 const checkItUnder = (e) => {

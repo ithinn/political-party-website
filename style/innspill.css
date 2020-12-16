@@ -28,7 +28,13 @@ main {
 
 #feedback-headings {
    margin: 5em 2em 1em 2em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
+
+
 
 #feedback-form-section {
     width: 100%;

@@ -1,5 +1,5 @@
 
-
+//Oppretter lenke til de ulike politiske temaene i choice-box
 window.onload = () => {
   document.querySelector('#submit-front').addEventListener('click', (e) => {
     e.preventDefault();
@@ -17,10 +17,7 @@ const label = document.getElementById("burger-frontpage");
 
 
 const checkIt = (e) => {
-  console.log("dytt")
-  if (e.key === "Enter") {
-    console.log("skjerno")
-    console.log(cb.checked);    
+  if (e.key === "Enter") {   
     !cb.checked ? cb.checked = true : cb.checked = false;
   }
 }
